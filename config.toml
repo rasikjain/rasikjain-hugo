@@ -75,13 +75,13 @@ disqusShortname = "yourdiscussshortname"
 [languages]
     [languages.en]
         languagename = "English" # The language name to be displayed in the selector.
-        title = "John Doe"
+        title = "Rasik Jain"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-        author = "John Doe"
-        info = "Full Stack DevOps and Magician"
-        description = "John Doe's personal website"
+        author = "Rasik Jain"
+        info = "Software Engineer and Enterprise Architect - ReactJs | TypeScript | C#"
+        description = "Rasik Jain's website"
         keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
