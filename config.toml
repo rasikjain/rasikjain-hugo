@@ -19,7 +19,7 @@ googleAnalytics = "UA-123-45"
 [params]
     author = "Rasik Jain"
     info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
-    description = "Rasik Jain's website. Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
+    description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
     keywords = "technology, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
     footercontent = "Copyright 2019 Rasik Jain"
@@ -83,7 +83,7 @@ googleAnalytics = "UA-123-45"
         [languages.en.params]
         author = "Rasik Jain"
         info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
-        description = "Rasik Jain's website. Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
+        description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
         keywords = "technology, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
 
         [languages.en.menu] # It is possible to change the menu too.
