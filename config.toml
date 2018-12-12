@@ -1,4 +1,4 @@
-baseurl = "http://www.rasikjain.com"
+baseurl = "http://dev.rasikjain.com"
 title = "rasikjain"
 
 theme = "hugo-coder"
