@@ -3,27 +3,18 @@ title = "About Hugo"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+## About:
 
+Software Engineer/Architect with experience in various roles - Product Development, Enterprise, Software Engineering, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing, Data Analytics & Delivery.
 
-It makes use of a variety of open source projects including:
+• • Specialties/Skillset• •
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+➤ Web: JavaScript | TypeScript | ReactJs | Redux | Node.js | Express | AngularJs | HTML5 | Bootstrap
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+➤ Microsoft: .NET Core | C# | Asp.Net MVC | Web API | Linq | Entity Framework
 
-## Setup
+➤ Data: SQL Server 2016 | Oracle | MySQL | MongoDB
 
-Some fun facts about [Hugo](http://gohugo.io/):
+➤ Cloud: AWS | S3 | EC2 | SQS | SNS | RDS
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+➤ Packages & Tools: Redux | GraphQL | WebPack | Babel | NPM | Git | IIS | Splunk | SumoLogic | Jira | Sitecore | Axios
