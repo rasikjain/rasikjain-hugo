@@ -1,5 +1,5 @@
 baseurl = "https://www.rasikjain.com"
-title = "rasikjain"
+title = "Rasik Jain - Software Engineer | Architect |  Consulting | ReactJs | C# | AWS"
 
 theme = "hugo-coder"
 
@@ -18,9 +18,9 @@ googleAnalytics = "UA-123-45"
 
 [params]
     author = "Rasik Jain"
-    description = "Rasik Jain's website"
-    keywords = "blog, developer, personal"
     info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
+    description = "Rasik Jain's website. Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
+    keywords = "technology, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
     footercontent = "Copyright 2019 Rasik Jain"
 
@@ -77,7 +77,7 @@ googleAnalytics = "UA-123-45"
 [languages]
     [languages.en]
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Rasik Jain"
+        title = "Rasik Jain - Software Engineer | Architect |  Consulting | ReactJs | C# | AWS"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
