@@ -20,7 +20,7 @@ googleAnalytics = "UA-123-45"
     author = "Rasik Jain"
     description = "Rasik Jain's website"
     keywords = "blog, developer, personal"
-    info = "Software Engineer and Enterprise Architect - ReactJs | TypeScript | C#"
+    info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
     avatarurl = "images/avatar_rasik.jpg"
     footercontent = "Copyright 2019 Rasik Jain"
 
@@ -82,7 +82,7 @@ googleAnalytics = "UA-123-45"
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Rasik Jain"
-        info = "Software Engineer and Enterprise Architect - ReactJs | TypeScript | C#"
+        info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
         description = "Rasik Jain's website"
         keywords = "blog,developer,personal"
 
