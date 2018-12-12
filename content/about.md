@@ -1,9 +1,7 @@
 +++
-title = "About Hugo"
+title = "About"
 slug = "about"
 +++
-
-## About:
 
 Software Engineer/Architect with experience in various roles - Product Development, Enterprise, Software Engineering, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing, Data Analytics & Delivery.
 
