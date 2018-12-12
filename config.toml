@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "http://www.rasikjain.com"
+title = "rasikjain"
 
 theme = "hugo-coder"
 
@@ -15,12 +15,12 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "John Doe"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    author = "Rasik Jain"
+    description = "Rasik Jain's website"
+    keywords = "blog, developer, personal"
+    info = "Software Engineer and Enterprise Architect - ReactJs | TypeScript | C#"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
+    footercontent = "Copyright 2019 Rasik Jain"
 
     dateformat = "January 2, 2006"
 
@@ -42,27 +42,18 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://github.com/rasikjain/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/jainrasik/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
-[[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 5
-    url = "https://medium.com/@johndoe"
+    url = "https://www.linkedin.com/in/rasikjain/"
+
 
 [[menu.main]]
     name = "Blog"
@@ -115,33 +106,4 @@ disqusShortname = "yourdiscussshortname"
         url = "/contact/"
 
 
-    [languages.pl]
-        languagename = "Polski"
-        title = "John Doe po polsku"
-
-        [languages.pl.params]
-            author = "John Doe"
-            description = "Strona domowa John'a Doe"
-            keywords = "blog,developer,strona domowa"
-            info = "Full Stack DevOps i Magik"
-
-        [languages.pl.menu]
-
-            [[languages.pl.menu.main]]
-            name = "O mnie"
-            weight = 1.0
-            url = "/pl/about/"
-
-            [[languages.pl.menu.main]]
-            name = "Blog"
-            weight = 2.0
-            url = "/pl/posts/"
-
-            [[languages.pl.menu.main]]
-            name = "projektowanie"
-            weight = 3
-            url = "/projektowanie/"
-            [[languages.pl.menu.main]]
-            name = "kontakt"
-            weight = 5
-            url = "/kontakt/"
+    
