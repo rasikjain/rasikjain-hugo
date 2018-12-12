@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     description = "Rasik Jain's website"
     keywords = "blog, developer, personal"
     info = "Software Engineer and Enterprise Architect - ReactJs | TypeScript | C#"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/avatar_rasik.jpg"
     footercontent = "Copyright 2019 Rasik Jain"
 
     dateformat = "January 2, 2006"
