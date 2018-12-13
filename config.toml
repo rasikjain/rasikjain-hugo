@@ -95,18 +95,23 @@ enableRobotsTXT = true
         [languages.en.menu] # It is possible to change the menu too.
 
         [[languages.en.menu.main]]
-        name = "About"
+        name = "Home"
         weight = 1.0
+        url = "/"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 2.0
         url = "/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
-        weight = 2.0
+        weight = 3.0
         url = "/posts/"
 
         [[languages.en.menu.main]]
         name = "Contact"
-        weight = 3.0
+        weight = 4.0
         url = "/contact/"
 
 
