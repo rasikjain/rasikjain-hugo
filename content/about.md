@@ -7,7 +7,7 @@ Software Engineer/Architect with experience in various roles - Product Developme
 
 • • Specialties/Skillset• •
 
-➤ Web: JavaScript | TypeScript | ReactJs | Redux | Node.js | Express | AngularJs | HTML5 | Bootstrap
+➤ Web: JavaScript | TypeScript | ReactJS | Redux | Node.js | Express | AngularJs | HTML5 | Bootstrap
 
 ➤ Microsoft: .NET Core | C# | Asp.Net MVC | Web API | Linq | Entity Framework
 

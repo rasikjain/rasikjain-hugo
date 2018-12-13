@@ -20,12 +20,12 @@ enableRobotsTXT = true
 
 [params]
     author = "Rasik Jain"
-    info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
-    description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
-    keywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
+    info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
+    description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
+    keywords = "technology, full stack, javascript, react.js, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
     footercontent = "Copyright 2019 Rasik Jain"
-    hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJs | C# | AWS"
+    hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
     headertitle = "Rasik Jain"
 
     dateformat = "January 2, 2006"
@@ -86,10 +86,10 @@ enableRobotsTXT = true
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Rasik Jain"
-        info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
-        description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
+        info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
+        description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
         keywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-        hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJs | C# | AWS"
+        hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
         headertitle = "Rasik Jain"
 
         [languages.en.menu] # It is possible to change the menu too.
