@@ -1,5 +1,6 @@
 baseurl = "https://www.rasikjain.com"
-title = "Rasik Jain - Software Engineer | Architect |  Consulting | ReactJs | C# | AWS"
+title = "Rasik Jain - Software Engineer | Architect | Consulting | ReactJs | C# | AWS"
+
 
 theme = "hugo-coder"
 
@@ -23,6 +24,8 @@ googleAnalytics = "UA-123-45"
     keywords = "technology, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
     footercontent = "Copyright 2019 Rasik Jain"
+    hometitle = "Rasik Jain - Software Engineer | Architect |  Consulting | ReactJs | C# | AWS"
+    headertitle = "Rasik Jain"
 
     dateformat = "January 2, 2006"
 
@@ -77,7 +80,7 @@ googleAnalytics = "UA-123-45"
 [languages]
     [languages.en]
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Rasik Jain"
+        title = "Rasik Jain - Software Engineer | Architect | Consulting"
         
         # You can configure the theme parameter for each language.
         [languages.en.params]
@@ -85,6 +88,8 @@ googleAnalytics = "UA-123-45"
         info = "Software Engineer and Enterprise Architect - ReactJs | C# | AWS"
         description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on Javascript, ReactJs, C#, AWS Cloud and Cyber Security."
         keywords = "technology, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
+        hometitle = "Rasik Jain - Software Engineer | Architect | Consulting | ReactJs | C# | AWS"
+        headertitle = "Rasik Jain"
 
         [languages.en.menu] # It is possible to change the menu too.
 
