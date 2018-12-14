@@ -21,7 +21,7 @@ enableRobotsTXT = true
 [params]
     author = "Rasik Jain"
     info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
-    subInfo = "Product Development, Enterprise, Software Engineering, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
+    subInfo = "Product Development, Consulting, Software Engineering, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics."
     metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
     metaKeywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
@@ -88,7 +88,7 @@ enableRobotsTXT = true
         [languages.en.params]
         author = "Rasik Jain"
         info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
-        subInfo = "Product Development, Enterprise, Software Engineering, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
+        subInfo = "Product Development, Consulting, Software Engineering, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics."
         metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
         metaKeywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
         hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
