@@ -2,7 +2,7 @@
 title = "About"
 slug = "about"
 +++
-### Who am I?
+## Who am I?
 
 Hi, I am <strong>Rasik Jain</strong>, Software Engineer / Architect / Entrepreneur based in New Jersey, USA. I enjoy building products and tools, talking to people, educating peers on cyber-security & problem solving.
 
@@ -14,34 +14,34 @@ I have a **Master's** degree from Florida International University [(FIU)](https
 
 Other than software, I enjoy travelling, reading, family time and talking to people.
 
-### Experience
+## Experience
 As a consultant & Software Engineer, I was instrumental in helping clients to realize their objectives and goals. Worked with team members in gathering **requirements**, **design**, creating prototypes and **developing solutions**. Worked in team collaboration by following processes and methodologies involving **Agile** and **Scrum**. Worked with teams in securing the enterprise applications by finding security **vulerabilities** and mitigating **risks**. I also help and educate the team members and other engineers on **cyber-security**, software design, patterns and best practices. 
 
 As an experienced professional, I was able to bring substantial savings in terms of financial and human resources. This involved **Process Automation, Continious Integration**, Testing, Code reviews, using appropriate tools and at the same time resolving scalability issues of the distributed systems by **Performance tuning** of underlying data queries and **Optimization** of **Server resources** and UI assets.
 
-### Interest
+## Interest
 
 To keep my entrepreneurial spirit alive and catchup with evolving technologies, I love reading technical blogs on different subjects, enjoy discussion on [Hacker News](https://news.ycombinator.com) and checking out [Indie Hackers](https://www.indiehackers.com/)
 
-### Specialties/Skillset
+## Specialties/Skillset
 
-###### Web
+### Web
 ReactJs | JavaScript | TypeScript | ES6 | WebPack | GraphQL | Redux | Node.js | Express | AngularJs | HTML5 | Bootstrap
 
-###### Microsoft: 
+### Microsoft: 
 .NET Core | C# | Asp.Net MVC | Web API | Linq | Entity Framework
 
-###### Data
+### Data
 SQL Server 2016 | Oracle | MySQL | MongoDB | DynamoDB
 
-###### Cloud
+### Cloud
 AWS | S3 | EC2 | SQS | SNS | RDS | ELB | Autoscaling
 
-###### Packages & Tools
+### Packages & Tools
 Babel | NPM | Git | IIS | Splunk | SumoLogic | Jira | New Relic | Sitecore | Axios
 
-### Get in Touch
+## Get in Touch
 
-Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [Twitter](https://twitter.com/jainrasik) OR [jainrasik AT gmail.com](mailto:jainrasik@gmail.com).
+Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [Twitter](https://twitter.com/jainrasik) OR [jainrasik AT gmail](mailto:jainrasik@gmail.com).
 
 **That's all folks :-)**
