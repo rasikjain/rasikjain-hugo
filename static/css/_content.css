@@ -17,9 +17,13 @@
     font-size: 0.8em;
 }
 .content article h2 {
-    margin: 15px 0px 15spx 0px;
+    margin: 15px 0px 15px 0px;
 }
 .content article h3 {
     margin: 10px 0px 10px 0px;
     font-size: 2rem;
+}
+.content article header {
+    margin-top: 3.4rem;
+    margin-bottom: 3.2rem;
 }
