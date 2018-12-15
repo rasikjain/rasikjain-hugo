@@ -25,7 +25,7 @@ enableRobotsTXT = true
     metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
     metaKeywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
-    footercontent = "Copyright 2019 Rasik Jain"
+    footercontent = ""
     hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
     headertitle = "Rasik Jain"
 
@@ -93,6 +93,8 @@ enableRobotsTXT = true
         metaKeywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
         hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
         headertitle = "Rasik Jain"
+        hideCopyright = false
+        hideCredits = false
 
         [languages.en.menu] # It is possible to change the menu too.
 
