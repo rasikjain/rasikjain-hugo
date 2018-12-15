@@ -42,6 +42,7 @@ Babel | NPM | Git | IIS | Splunk | SumoLogic | Jira | New Relic | Sitecore | Axi
 
 ## Get in Touch
 
-Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [Twitter](https://twitter.com/jainrasik) OR [jainrasik AT gmail](mailto:jainrasik@gmail.com).
+Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com "jainrasik - Gmail") OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik "@jainrasik - Twitter").
 
 **That's all folks :-)**
+
