@@ -16,3 +16,8 @@
 .footer .container {
     font-size: 0.8em;
 }
+
+.content article h3 {
+    margin: 10px 0px 10px 0px;
+    font-size: 2rem;
+}
