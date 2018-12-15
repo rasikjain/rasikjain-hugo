@@ -26,23 +26,79 @@ To keep my entrepreneurial spirit alive and catchup with evolving technologies, 
 ## Specialties/Skillset
 
 ### Web
-ReactJs | JavaScript | TypeScript | ES6 | WebPack | GraphQL | Redux | Node.js | Express | AngularJs | HTML5 | Bootstrap
+<div class="horizontalList">
+    <ul>
+        <li>ReactJs</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>ES6</li>
+        <li>WebPack</li>
+        <li>GraphQL</li>
+        <li>Redux</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>Angular</li>
+        <li>Boostrap</li>
+        <li>HTML5</li>
+    </ul>
+</div>
+
 
 ### Microsoft: 
-.NET Core | C# | Asp.Net MVC | Web API | Linq | Entity Framework
+<div class="horizontalList">
+    <ul>
+        <li>.Net Core</li>
+        <li>C#</li>
+        <li>Asp.Net MVC</li>
+        <li>Web API</li>
+        <li>Linq</li>
+        <li>Entity Framework</li>
+    </ul>
+</div>
 
 ### Data
-SQL Server 2016 | Oracle | MySQL | MongoDB | DynamoDB
+<div class="horizontalList">
+    <ul>
+        <li>SQL Server</li>
+        <li>Oracle</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>DynamoDB</li>
+    </ul>
+</div>
 
 ### Cloud
-AWS | S3 | EC2 | SQS | SNS | RDS | ELB | Autoscaling
+<div class="horizontalList">
+    <ul>
+        <li>AWS</li>
+        <li>S3</li>
+        <li>EC2</li>
+        <li>SQS</li>
+        <li>SNS</li>
+        <li>RDS</li>
+        <li>ELB</li>
+        <li>AutoScaling</li>
+    </ul>
+</div>
 
 ### Packages & Tools
-Babel | NPM | Git | IIS | Splunk | SumoLogic | Jira | New Relic | Sitecore | Axios
+<div class="horizontalList">
+    <ul>
+        <li>Jira</li>
+        <li>Git</li>
+        <li>NPM</li>
+        <li>Axios</li>
+        <li>Babel</li>
+        <li>IIS</li>
+        <li>Splunk</li>
+        <li>SumoLogic</li>
+        <li>New Relic</li>
+        <li>Sitecore</li>
+    </ul>
+</div>
 
 ## Get in Touch
 
 Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com "jainrasik - Gmail") OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik "@jainrasik - Twitter").
 
 **That's all folks :-)**
-
