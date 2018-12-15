@@ -7,3 +7,8 @@
     padding: 5px 12px 5px 12px;
     margin: 5px;
 }
+
+.content article p {
+    line-height: 2.5em;
+    text-align: justify;
+}
