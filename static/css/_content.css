@@ -12,3 +12,7 @@
     line-height: 2.5em;
     text-align: justify;
 }
+
+.footer .container {
+    font-size: 0.8em;
+}
