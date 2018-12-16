@@ -43,7 +43,7 @@ enableRobotsTXT = true
     inverted = false
 
     # Custom CSS
-    custom_css = ['/css/_content.css']
+    custom_css = []
 
 [[params.social]]
     name = "Github"
