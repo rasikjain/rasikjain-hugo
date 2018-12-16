@@ -60,7 +60,11 @@ enableRobotsTXT = true
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/rasikjain/"
-
+[[params.social]]
+    name = "StackOverflow"
+    icon = "fab fa-stack-overflow"
+    weight = 5
+    url = "https://stackoverflow.com/users/1993944/rasik-jain"
 
 [[menu.main]]
     name = "Blog"
