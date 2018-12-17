@@ -51,21 +51,31 @@ enableRobotsTXT = true
     icon = "fab fa-twitter"
     weight = 1
     url = "https://twitter.com/jainrasik/"
+    title = "@jainrasik - Twitter"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 2
     url = "https://www.linkedin.com/in/rasikjain/"
+    title = "@rasikjain - LinkedIn"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github"
     weight = 3
     url = "https://github.com/rasikjain/"
+    title = "@rasikjain - Github"
 [[params.social]]
     name = "StackOverflow"
     icon = "fab fa-stack-overflow"
     weight = 4
     url = "https://stackoverflow.com/users/1993944/rasik-jain"
+    title = "rasik-jain - Stackoverlfow"
+[[params.social]]
+    name = "Email"
+    icon = "far fa-envelope"
+    weight = 5
+    url = "mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20your%20profile, source:rasikjain.com"
+    title = "jainrasik@gmail.com"
 
 [[menu.main]]
     name = "Blog"
