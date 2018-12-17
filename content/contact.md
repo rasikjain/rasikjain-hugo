@@ -10,11 +10,11 @@ slug = "contact"
     <label for="name">Name</label>
   </div>
   <div class="text-input">
-    <input type="email" required id="email" name="_replyto" placeholder="Your Email">
+    <input type="email" required id="email" name="_replyto" placeholder="Your Email (e.g name@domain.com)">
     <label for="email">Email</label>
   </div>
   <div class="text-input">
-    <textarea type="text" id="message" name="message" required rows=5 style="height:auto" placeholder="Type your message."></textarea>
+    <textarea type="text" id="message" name="message" required rows=5 style="height:auto; padding-left:120px" placeholder="Type your message."></textarea>
     <label for="message">Message</label>
   </div>
 
