@@ -10,7 +10,7 @@ slug = "contact"
     <label for="name">Name</label>
   </div>
   <div class="text-input">
-    <input type="text" required id="email" name="email" placeholder="Your Email">
+    <input type="email" required id="email" name="_replyto" placeholder="Your Email">
     <label for="email">Email</label>
   </div>
   <div class="text-input">

@@ -62,7 +62,7 @@
         -moz-border-radius:8px 8px 8px 8px; // rounds corners for firefox
         border-radius:8px 8px 8px 8px;  //rounds corners for other browsers
         
-        textarea, input[type="text"]{
+        textarea, input[type="text"], input[type="email"]{
           display: inline-block;
           width: 500px;
           height: 40px;
@@ -74,7 +74,7 @@
           transition: all 0.1s ease-out;
         }
         
-        textarea + label, input[type="text"] + label{
+        textarea + label, input[type="text"] + label, input[type="email"] + label{
           position: absolute;
           top: 0;
           left: 0;
@@ -90,13 +90,13 @@
           transition-delay: 0.2s;
         }
         
-        textarea:focus + label, input[type="text"]:focus + label{
+        textarea:focus + label, input[type="text"]:focus + label, input[type="email"]:focus + label{
           transform: translateY(-120%) translateX(0%);
           border-radius: 3px;
           transition: all 0.1s ease-out;
         }
         
-        textarea:focus, input[type="text"]:focus{
+        textarea:focus, input[type="text"]:focus, input[type="email"]:focus{
           padding: 10px;
           transition: all 0.3s ease-out;
           transition-delay: 0.2s;
