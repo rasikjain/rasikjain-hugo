@@ -44,6 +44,65 @@
     footer {
       margin-top: 4.0rem;
     }
+    .contactForm {
+
+      button {
+        width: 500px;
+        height: 40px;
+        margin-top: 20px;
+        background: #d9d9d9;
+        -moz-border-radius:8px 8px 8px 8px; // rounds corners for firefox
+        border-radius:8px 8px 8px 8px;  //rounds corners for other browsers
+      }
+
+      .text-input{
+        
+        position: relative;
+        margin-top: 55px;
+        -moz-border-radius:8px 8px 8px 8px; // rounds corners for firefox
+        border-radius:8px 8px 8px 8px;  //rounds corners for other browsers
+        
+        textarea, input[type="text"]{
+          display: inline-block;
+          width: 500px;
+          height: 40px;
+          box-sizing: border-box;
+          outline: none;
+          border: 1px solid lightgray;
+          border-radius: 3px;
+          padding: 10px 10px 10px 120px;
+          transition: all 0.1s ease-out;
+        }
+        
+        textarea + label, input[type="text"] + label{
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          height: 40px;
+          line-height: 40px;
+          color: black;
+          border-radius: 3px 0 0 3px;
+          padding: 0 20px;
+          background: #d9d9d9;
+          transform: translateZ(0) translateX(0);
+          transition: all 0.3s ease-in;
+          transition-delay: 0.2s;
+        }
+        
+        textarea:focus + label, input[type="text"]:focus + label{
+          transform: translateY(-120%) translateX(0%);
+          border-radius: 3px;
+          transition: all 0.1s ease-out;
+        }
+        
+        textarea:focus, input[type="text"]:focus{
+          padding: 10px;
+          transition: all 0.3s ease-out;
+          transition-delay: 0.2s;
+        }
+}
+    }
   }
   .post {
     .post-title {
