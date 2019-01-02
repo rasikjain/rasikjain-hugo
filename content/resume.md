@@ -2,11 +2,10 @@
 title = "Resume"
 slug = "resume"
 +++
-<p>
-Please click to download PDF resume: [<i class="far fa-2x fa-file-pdf" style="color: #212121"></i>]
-(/data/Rasik_Jain_Resume.pdf "Rasik Jain - Resume")
-</p>
-<div>
 
-<iframe style="border:1px solid #000000" title="Rasik Jain Resume" src="/data/Rasik_Jain_Resume.pdf" frameborder="1" scrolling="auto" height="1150" width="860" ></iframe>
+<p>
+Please click to download PDF resume: <a href="/data/Rasik_Jain_Resume.pdf" title="Rasik Jain - Resume"><i class="far fa-2x fa-file-pdf" style="color: #212121"></i></a>
+</p>
+<div class="resp-container">
+    <iframe class="resp-iframe" title="Rasik Jain Resume" src="/data/Rasik_Jain_Resume.pdf" scrolling="auto"></iframe>
 </div>
