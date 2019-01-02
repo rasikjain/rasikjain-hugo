@@ -124,6 +124,11 @@ enableRobotsTXT = false
         url = "/about/"
 
         [[languages.en.menu.main]]
+        name = "Resume"
+        weight = 2.5
+        url = "/resume/"
+
+        [[languages.en.menu.main]]
         name = "Contact"
         weight = 4.0
         url = "/contact/"
