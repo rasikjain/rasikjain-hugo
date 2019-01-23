@@ -15,8 +15,8 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
-googleAnalytics = "UA-123-45"
-enableRobotsTXT = false
+googleAnalytics = "UA-8667481-1"
+enableRobotsTXT = true
 
 [params]
     author = "Rasik Jain"
