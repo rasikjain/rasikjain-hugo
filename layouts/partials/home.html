@@ -6,6 +6,9 @@
     <h1>{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
     <p>{{ .Site.Params.subInfo }}</p>
+    {{ if .Site.Params.hire.isactive }}
+      <p><a href="{{ .Site.Params.hire.url}}">{{ .Site.Params.hire.title}}</a></p>
+    {{ end }}
     <br/>
     {{ with .Site.Params.social }}
     <ul>

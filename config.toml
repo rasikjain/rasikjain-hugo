@@ -22,6 +22,7 @@ enableRobotsTXT = false
     author = "Rasik Jain"
     info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
     subInfo = "Consulting, Software Engineering, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics."
+    
     metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
     metaKeywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
     avatarurl = "images/avatar_rasik.jpg"
@@ -44,7 +45,10 @@ enableRobotsTXT = false
 
     # Custom CSS
     custom_css = []
-
+[params.hire]
+    isactive = true
+    title = "( Available for Hire )"
+    url = "/about/"
 
 [[params.social]]
     name = "Twitter"
