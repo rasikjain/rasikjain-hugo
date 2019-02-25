@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rasikjain
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.rasikjain.com
+  * I am rasikjain (https://keybase.io/rasikjain) on keybase.
+  * I have a public key with fingerprint FDF5 5AA1 04F9 C3A0 AED9  B1C1 F186 CEAE 0134 C2B8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011b090ddc78201b0c61983200517040e32af8559c9d1aec1eef365601abf436bc0a",
+      "fingerprint": "fdf55aa104f9c3a0aed9b1c1f186ceae0134c2b8",
+      "host": "keybase.io",
+      "key_id": "f186ceae0134c2b8",
+      "kid": "01011b090ddc78201b0c61983200517040e32af8559c9d1aec1eef365601abf436bc0a",
+      "uid": "3b1afd9b815e6d57ce65dccef0232119",
+      "username": "rasikjain"
+    },
+    "service": {
+      "hostname": "www.rasikjain.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1551076867,
+  "expire_in": 157680000,
+  "prev": "9a2ab2868f48be5393a7bffdd9d63b38d275a044e4146768cc0dbf83b59653e7",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJbSFRBHMZXLUsjulCgUFCHAgN3mzm3PWdJK6WCsrVA6MLmOrejx93O
+2c7ZdRM1pAgioQtICpEhhZEW2IUuRDcr6EYPYZEmRYFpLyURhJDVHKmeemxeZuY/
+v++b7z/M/ZlZvtyM141VIfX4vI8ZT+6eSPki7qGsBgHbtF4INQgxNjmxOGVuMhoz
+qRASAAQQYqADSklQEwFfExXqmiQCoMAgkAGTRGRoiqITnULECGTMkFRFBRBhQ5ZU
+TAASCgXDtKqZk3BMK8ltDWooCkIQyIZOJAQQozqGBBpQUwlDDEBJJiLWuLDGdj0F
+D4eRywKmzWt8E52M9w/+P+dOTdpJGCKDR9SgwlSqBAlTFUoIM4AoiRDqHugyx0I7
+Gacd5JqxWmRaQlOhwMt1JmHey3qt/EbS6XTgLxYg9k7ukHDspE3sOD+uSSYTbsiT
+J+sTkzzD0d9OUWxalL8mV9QxxzVtSwhBTpKk6VlDRYEgqGpqsFBguxOmw6KmRyi8
+Bvjw7mF13FJHIsKipmqGrGGmSLqEgtgwKNWpKmFJo2JQQUCWmQxllYsJARQbmoQV
+XVUkFhS83nZZthBSeUxUzS1ds9pCyZTDhKa+O5EpvoxcX/bUTO+X+XJzZv/5e99u
+TPu52pn+/KJVdjKPdBVW9Rbnt6aGHh0YmSDLs8vPm/0f2kFJc0vRrBtv/JHrrcNj
+Tc9iJROPp7YH1nx40nbwUFHPi9Kags3jO7ovL7l0Vi7eUnDhx9ae9+eeVqbD3TdL
+wz+/Wnva1p/pj2waOt05p3+wvCe1o1KffpWcCuS8e7Zte/PDW3Dsuz+8t+t57TH3
+5KdVbrteM9LUOePKspUf97+6/SWrcbBvaO7Au3jey1Bt0fjR9Fh8fk5b6trcBUc2
+Dgw3dlXkxPSO8VcVJ8J5i9ePdjSWLTrsv9p6b0W4hX7ueJCY2W68jQ2uK82sHt0+
+urBS809AnN97bW1m79IHLfs21OYx/y+JnkTy
+=WiRf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rasikjain
+
+==================================================================
