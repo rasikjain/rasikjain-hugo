@@ -1,0 +1,36 @@
+<li>
+  <!-- <article>
+  <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+  <a class="title" href="{{ .Params.ExternalLink | default .URL }}">{{ .Title }}</a>
+</article> -->
+<article>
+  <header>
+    <h3><a class="title" href="{{ .Params.ExternalLink | default .URL }}">{{ .Title }}</a></h3>
+    <small>
+    <div class="fas">
+        <div class="date">
+            <i class="fas fa-calendar"></i>
+            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+              {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+            </time>
+            &nbsp;
+            <i class="fas fa-clock"></i>
+            {{ i18n "reading_time" .ReadingTime }}
+          
+        </div>
+      </div>
+    </small>
+  </header>
+    <div>
+      <p>
+      {{ .Summary }}
+   
+    {{ if .Truncated }}
+    <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+      <a href="{{ .RelPermalink }}">....Read More</a>
+    {{ end }}
+  </p>
+  </div>
+  
+</article> 
+</li>
