@@ -1,5 +1,5 @@
 +++
-date = "2020-03-19"
+date = "2020-03-20"
 title = "Passing AWS Solutions Architect Associate 2020 Exam"
 slug = "tips-and-resources-passing-cloud-aws-solutions-architect-associate-2020-exam"
 tags = [
