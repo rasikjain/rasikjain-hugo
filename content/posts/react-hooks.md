@@ -18,7 +18,7 @@ With the release of [Hooks](https://reactjs.org/docs/hooks-intro.html "React Hoo
 
 The **useState** hook adds state to the functional components. useState hook allows you to declare one state variable at a time.
 
-```
+``` react
 import React, { useState } from 'react';
 
 function Counter() {
@@ -40,7 +40,7 @@ function Counter() {
 
 The **useEffect** allows to manage side effects in a functional component. Some of the examples are fetching external data using api, manipulating DOM in react. It is similar to componentDidMount and componentDidUpdate from class component.
 
-```
+``` react
 import React, { useState, useEffect } from 'react';
 
 function LoadProducts() {
