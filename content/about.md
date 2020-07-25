@@ -99,6 +99,6 @@ To keep my entrepreneurial spirit alive and catchup with evolving technologies, 
 
 ## Get in Touch
 
-Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile, source:rasikjain.com "jainrasik - Gmail") OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik "@jainrasik - Twitter").
+Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile,%20source:rasikjain.com "jainrasik - Gmail") OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik "@jainrasik - Twitter").
 
 **That's all folks :-)**

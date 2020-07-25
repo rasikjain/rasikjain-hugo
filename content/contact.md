@@ -17,8 +17,6 @@ slug = "contact"
     <textarea type="text" id="message" name="message" required rows=5 style="height:auto;" placeholder="Type your message."></textarea>
     <label for="message">Message</label>
   </div>
-
  <button type="submit">Send Message</button>
- 
 </form>
 </section>
