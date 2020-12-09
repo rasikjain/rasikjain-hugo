@@ -49,4 +49,4 @@ List of resources.
 
 Thanks for stopping by. I hope this resource helped in getting started on your AWS cloud journey. Good luck on your exam :-)
 
-**TLDR:** Passed the AWS Solution Architect -Associate exam with 926 score. Here is the link for certification. <https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-03-14&ci=AWS01122340>
+**TLDR:** Passed the AWS Solution Architect -Associate exam with 926 score. Here is the link for certification. <https://www.youracclaim.com/badges/8f3ffad2-a7dd-48e8-be9e-9bae14136345>
