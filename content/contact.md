@@ -4,7 +4,7 @@ slug = "contact"
 +++
 
 <section class="contactForm">
-<form method="POST" action="https://formspree.io/jainrasik+formspree@gmail.com">
+<form method="POST" action="https://formspree.io/f/jainrasik+formspree@gmail.com">
   <div class="text-input">
     <input type="text" required id="name" name="name" placeholder="Your Name Please.">
     <label for="name">Name</label>
