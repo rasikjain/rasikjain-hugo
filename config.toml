@@ -75,7 +75,7 @@ enableRobotsTXT = false
 
 [params.hire]
     isactive = true
-    title = "( Available for Hire )"
+    title = "( Open to Opportunities )"
     url = "/about/"
     
 [[params.social]]
@@ -143,11 +143,12 @@ enableRobotsTXT = false
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Rasik Jain"
-        info = "Software Engineer & Architect - React | TypeScript | GraphQL | Javascript | AWS"
-        subInfo = "Consulting, Software Engineering, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
+        info = "Software Engineer & Enterprise Architect"
+        subInfo = "(skills) => { React | TypeScript | GraphQL | Node.js | AWS | Cybersecurity }"
+        subInfo2 = "Software Engineering, Consulting, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
         metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, React, TypeScript, GraphQL, Javascript, MongoDB, C#, AWS Cloud and Cyber Security."
         metaKeywords = "technology, fullstack, javascript, React, TypeScript, GraphQL, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-        hometitle = "Rasik Jain - Software Engineer | Full-Stack | React | TypeScript | GraphQL | Javascript | AWS"
+        hometitle = "Rasik Jain - Software Engineer | Full-Stack | React | TypeScript | GraphQL | Node.js | Javascript | AWS"
 
         hideCopyright = false     
         hideCredits = false
