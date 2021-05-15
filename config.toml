@@ -143,11 +143,11 @@ enableRobotsTXT = false
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Rasik Jain"
-        info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
+        info = "Software Engineer & Architect - React | TypeScript | GraphQL | Javascript | AWS"
         subInfo = "Consulting, Software Engineering, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
-        metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."
-        metaKeywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-        hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
+        metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, React, TypeScript, GraphQL, Javascript, MongoDB, C#, AWS Cloud and Cyber Security."
+        metaKeywords = "technology, fullstack, javascript, React, TypeScript, GraphQL, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
+        hometitle = "Rasik Jain - Software Engineer | Full-Stack | React | TypeScript | GraphQL | Javascript | AWS"
 
         hideCopyright = false     
         hideCredits = false
