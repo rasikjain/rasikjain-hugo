@@ -1,9 +1,8 @@
 +++
-date = "2021-05-19"
+date = "2021-05-20"
 title = "Simple Notes app using React, TypeScript, Node.js, GraphQL and MongoDB"
 slug = "simple-notes-app-using-react-typescript-nodejs-graphql-mongodb"
 tags = ["React", "TypeScript", "Node.js", "GraphQL", "MongoDB", "JavaScript"]
-draft = true
 +++
 
 In the series of the blog post, I am going to walk through step by step process of building a [Simple Notes](https://github.com/rasikjain/SimpleNotes) App using [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), [GraphQL ](https://graphql.org/) and [MongoDB](https://www.mongodb.com/). During the process of our development, we are going to use some useful npm packages like [Express](https://expressjs.com/), [Apollo-Server](https://www.apollographql.com/docs/apollo-server), [Typegoose](https://github.com/typegoose/typegoose), [Mongoose](https://mongoosejs.com/), [TypeGraphQL ](https://typegraphql.com/) and [Bootstrap](https://getbootstrap.com/).
@@ -116,7 +115,8 @@ npm i apollo-server-express dotenv express graphql
 npm i mongoose reflect-metadata type-graphql @typegoose/typegoose
 ```
 
-* `apollo-server-express` - This is the Apollo GraphQL Server with Express.
+* `apollo-server-express` - This is the Apollo GraphQL Server with Express. 
+  
 * `dotenv` - Dotenv module loads environment variables from a .env file into process.env.
 * `express` - Express is a minimal and flexible Node.js web application framework.
 * `graphql` - Implementation of GraphQL for creating APIs.
@@ -133,6 +133,7 @@ npm i -D nodemon ts-node
 ```
 
 * `nodemon` - Automatically restarting the node application when file changes in the directory are detected.
+  
 * `ts-node` -  Run typescript files directly, without the need for precompilation using tsc
 
 ### Creating Mongoose Schema and GraphQL Schema
