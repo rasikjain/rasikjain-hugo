@@ -140,11 +140,11 @@ npm i -D nodemon ts-node
 
 In this section, we will create `Mongoose Schema` and `GraphQL Schema`. Mongoose Schema will interact with the `MongoDB` database. We will be using `GraphQL Schema` in our `Resolvers` to create endpoints using `Apollo-Server`.
 
-Create a new file `notes.model.ts` under `src\models` folder. We use the following code to create our `Model` for `Notes`. This `Notes` object has properties like `id, title, description, backgroundcolor, etc`.
+Create a new file `notes.model.ts` under `src\models` folder. We use the following code to create our `Model` for `Notes`. This `Notes` class has properties like `id, title, description, backgroundcolor, etc`.
 
-We use the `Typegoose` library which acts as a wrapper for easily writing `Mongoose` models with TypeScript. In Typegoose, we use the `@Prop (@Property)` decorator to define the properties for our mongoose schema.
+We use the `Typegoose` library which acts as a wrapper for easily writing `Mongoose` models with TypeScript. The `@Prop (@Property)` decorator is used for defining the properties for our mongoose schema.
 
-We use the `Type-GraphQL` library to create our `GraphQL schema`. `@ObjectType` and `@Field` decorators are used for defining properties for `Notes` GraphQL Schema.
+We use the `Type-GraphQL` library to create our GraphQL schema. `@ObjectType` and `@Field` decorators are used for defining properties for `Notes` GraphQL Schema.
 
 By using `Typegoose` and `Type-GraphQL` packages, we eliminate the duplication of code for writing models and schemas separately for MongoDB and GraphQL. We use one single model `notes.model.ts` which acts as a bridge between `MongoDB` and `GraphQL`. 
 
