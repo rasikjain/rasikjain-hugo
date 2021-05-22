@@ -187,3 +187,104 @@ export const NotesModel = getModelForClass(Notes);
 ```
 
 ### Create GraphQL Resolvers
+
+Now it is time to create our `notes` resolver. Resolver is collection of functions which helps to retrieve field data (`Query`) and update data in the database (`mutation`). In our `notes` resolver we will implement following Queries and Mutations.
+
+* **Queries**
+  * getAllNotes()
+  * getNotesById()
+
+* **Mutations**
+  * createNotes()
+  * updateNotes()
+  * deleteNotes()
+
+Lets start the resolver implementation by creating a file `notes.resolvers.ts` in `src\resolvers` folder.
+
+```TypeScript
+import { Resolver, Mutation, Arg, Query, ID } from 'type-graphql';
+import { NotesModel, Notes } from '../models/notes.model';
+import { NotesInput } from './types/notes-input';
+
+@Resolver((_of) => Notes)
+export class NotesResolver {
+  @Query((_returns) => Notes, { nullable: false, name: 'notes' })
+  async getNotesById(@Arg('id') id: string) {
+    return await NotesModel.findById({ _id: id });
+  }
+
+  @Query(() => [Notes], { name: 'notesList', description: 'Get List of Notes' })
+  async getAllNotes() {
+    return await NotesModel.find();
+  }
+
+  @Mutation(() => Notes, { name: 'createNotes' })
+  async createNotes(@Arg('newNotesInput') { title, description, backgroundColor }: NotesInput): Promise<Notes> {
+    const notes = (
+      await NotesModel.create({
+        title,
+        description,
+        backgroundColor,
+        isArchived: false,
+      })
+    ).save();
+
+    return notes;
+  }
+
+  @Mutation(() => Notes, { name: 'updateNotes' })
+  async updateNotes(
+    @Arg('editNotesInput') { id, title, description, backgroundColor, isArchived }: NotesInput
+  ): Promise<Notes> {
+    const notes = await NotesModel.findByIdAndUpdate(
+      { _id: id },
+      {
+        title,
+        description,
+        backgroundColor,
+        isArchived,
+      },
+      { new: true }
+    );
+
+    return notes;
+  }
+
+  @Mutation(() => String, { name: 'deleteNotes' })
+  async deleteNotes(@Arg('id') id: string): Promise<String> {
+    const result = await NotesModel.deleteOne({ _id: id });
+
+    if (result.ok == 1) return id;
+    else return '';
+  }
+}
+```
+
+We use `@Resolver`, `@Query` and `@Mutation` directives from `TypeGraphQL` package to create our GraphQL schema (`schema.gql`).
+
+For `createNotes` and `updateNotes` mutations, we use `NotesInput` type as the input paramter. This `NotesInput` contains the data for creating and editing the notes.
+
+Create a new file `notes-input.ts` in the `src\resolvers\types` folder.
+
+```TypeScript
+import { Field, InputType, ID } from 'type-graphql';
+import { Notes } from '../../models/notes.model';
+
+@InputType()
+export class NotesInput implements Partial<Notes> {
+  @Field(() => ID, { nullable: true })
+  id: string;
+
+  @Field()
+  title: string;
+
+  @Field()
+  description: string;
+
+  @Field({ nullable: true })
+  backgroundColor: string;
+
+  @Field({ nullable: true })
+  isArchived: boolean;
+}
+```
