@@ -10,8 +10,8 @@
         font-size: 4.2rem;
         line-height: 4.6rem;
         margin: 0;
-        @media only screen and (max-width : 768px) {
-          font-size: 4.0rem;
+        @media only screen and (max-width: 768px) {
+          font-size: 4rem;
           line-height: 4.4rem;
         }
       }
@@ -19,36 +19,30 @@
     p {
       line-height: 2.5em;
       text-align: justify;
-
-      
     }
     h3 {
       margin: 10px 0px 10px 0px;
       font-size: 2rem;
-
     }
-    .horizontalList
-    {
+    .horizontalList {
       li {
-        display:inline-flex;
+        display: inline-flex;
         font-size: 1em;
-        -moz-border-radius:8px 8px 8px 8px; // rounds corners for firefox
-        border-radius:8px 8px 8px 8px;  //rounds corners for other browsers
-        border:solid 1px #000;
+        -moz-border-radius: 8px 8px 8px 8px; // rounds corners for firefox
+        border-radius: 8px 8px 8px 8px; //rounds corners for other browsers
+        border: solid 1px #000;
         //background-color:#fafafa;
-        padding:5px 12px 5px 12px;
-        margin: 5px
-
+        padding: 5px 12px 5px 12px;
+        margin: 5px;
       }
     }
     footer {
-      margin-top: 4.0rem;
+      margin-top: 4rem;
     }
     .resp-container {
       position: relative;
       overflow: hidden;
       padding-top: 56.25%;
-      height: 1150px;
     }
     .resp-iframe {
       position: absolute;
@@ -59,24 +53,24 @@
       border: 0;
     }
     .contactForm {
-
       button {
         width: 500px;
         height: 40px;
         margin-top: 20px;
         background: #d9d9d9;
-        -moz-border-radius:8px 8px 8px 8px; // rounds corners for firefox
-        border-radius:8px 8px 8px 8px;  //rounds corners for other browsers
+        -moz-border-radius: 8px 8px 8px 8px; // rounds corners for firefox
+        border-radius: 8px 8px 8px 8px; //rounds corners for other browsers
       }
 
-      .text-input{
-        
+      .text-input {
         position: relative;
         margin-top: 55px;
-        -moz-border-radius:8px 8px 8px 8px; // rounds corners for firefox
-        border-radius:8px 8px 8px 8px;  //rounds corners for other browsers
-        
-        textarea, input[type="text"], input[type="email"]{
+        -moz-border-radius: 8px 8px 8px 8px; // rounds corners for firefox
+        border-radius: 8px 8px 8px 8px; //rounds corners for other browsers
+
+        textarea,
+        input[type='text'],
+        input[type='email'] {
           display: inline-block;
           width: 500px;
           height: 40px;
@@ -87,8 +81,10 @@
           padding: 10px 10px 10px 112px;
           transition: all 0.1s ease-out;
         }
-        
-        textarea + label, input[type="text"] + label, input[type="email"] + label{
+
+        textarea + label,
+        input[type='text'] + label,
+        input[type='email'] + label {
           position: absolute;
           top: 0;
           left: 0;
@@ -103,24 +99,28 @@
           transition: all 0.3s ease-in;
           transition-delay: 0.2s;
         }
-        
-        textarea:focus + label, input[type="text"]:focus + label, input[type="email"]:focus + label{
+
+        textarea:focus + label,
+        input[type='text']:focus + label,
+        input[type='email']:focus + label {
           transform: translateY(-120%) translateX(0%);
           border-radius: 3px;
           transition: all 0.1s ease-out;
         }
-        
-        textarea:focus, input[type="text"]:focus, input[type="email"]:focus{
+
+        textarea:focus,
+        input[type='text']:focus,
+        input[type='email']:focus {
           padding: 10px;
           transition: all 0.3s ease-out;
           transition-delay: 0.2s;
         }
-}
+      }
     }
   }
   .post {
     .post-title {
-      margin-bottom: .75em;
+      margin-bottom: 0.75em;
     }
     .post-meta {
       i {
@@ -139,11 +139,11 @@
   }
 }
 
-.avatar img{
+.avatar img {
   width: 20rem;
   height: auto;
   border-radius: 50%;
-  @media only screen and (max-width : 768px) {
+  @media only screen and (max-width: 768px) {
     width: 10rem;
   }
 }
@@ -155,15 +155,15 @@
     padding: 0;
     li {
       font-size: 1.8rem;
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         margin: 1.6rem 0 1.6rem 0;
       }
       span {
         display: inline-block;
-        width: 20.0rem;
+        width: 20rem;
         text-align: right;
-        margin-right: 3.0rem;
-        @media only screen and (max-width : 768px) {
+        margin-right: 3rem;
+        @media only screen and (max-width: 768px) {
           display: block;
           text-align: left;
         }
@@ -175,7 +175,7 @@
         font-weight: 700;
         &:hover,
         &:focus {
-          color: $link-color
+          color: $link-color;
         }
       }
     }
@@ -190,20 +190,20 @@
   .about {
     text-align: center;
     h1 {
-      margin-top: 2.0rem;
+      margin-top: 2rem;
       margin-bottom: 0.5rem;
     }
     h2 {
-      margin-top: 1.0rem;
+      margin-top: 1rem;
       margin-bottom: 0.5rem;
       font-size: 2.4rem;
-      @media only screen and (max-width : 768px) {
-        font-size: 2.0rem;
+      @media only screen and (max-width: 768px) {
+        font-size: 2rem;
       }
     }
     ul {
       list-style: none;
-      margin: 3.0rem 0 1.0rem 0;
+      margin: 3rem 0 1rem 0;
       padding: 0;
       li {
         display: inline-block;
@@ -211,14 +211,14 @@
         a {
           color: $fg-color;
           text-transform: uppercase;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
           font-size: 1.6rem;
           &:hover,
           &:focus {
             color: $link-color;
           }
-          @media only screen and (max-width : 768px) {
+          @media only screen and (max-width: 768px) {
             font-size: 1.4rem;
           }
           i {
@@ -232,18 +232,18 @@
   .error {
     text-align: center;
     h1 {
-      margin-top: 2.0rem;
+      margin-top: 2rem;
       margin-bottom: 0.5rem;
       font-size: 4.6rem;
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         font-size: 3.2rem;
       }
     }
     h2 {
-      margin-top: 2.0rem;
+      margin-top: 2rem;
       margin-bottom: 3.2rem;
       font-size: 3.2rem;
-      @media only screen and (max-width : 768px) {
+      @media only screen and (max-width: 768px) {
         font-size: 2.8rem;
       }
     }
