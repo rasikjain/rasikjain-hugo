@@ -7,7 +7,21 @@ tags = ["React", "TypeScript", "Node.js", "GraphQL", "MongoDB", "JavaScript"]
 
 In the series of the blog post, I am going to walk through step by step process of building a [Simple Notes](https://github.com/rasikjain/SimpleNotes) App using [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), [GraphQL ](https://graphql.org/) and [MongoDB](https://www.mongodb.com/). During the process of our development, we are going to use some useful npm packages like [Express](https://expressjs.com/), [Apollo-Server](https://www.apollographql.com/docs/apollo-server), [Typegoose](https://github.com/typegoose/typegoose), [Mongoose](https://mongoosejs.com/), [TypeGraphQL ](https://typegraphql.com/) and [Bootstrap](https://getbootstrap.com/).
 
-## Dev Environment Setup
+**Table of Content**
+
+- [Dev Environment Setup](#dev-environment-setup)
+- [GraphQL Server Backend](#graphql-server-backend)
+- [Folder Structure](#folder-structure)
+- [Creating Node.js project](#creating-nodejs-project)
+- [Configuring TypeScript](#configuring-typescript)
+- [Installing Dependency Packages](#installing-dependency-packages)
+- [Creating Mongoose Schema and GraphQL Schema](#creating-mongoose-schema-and-graphql-schema)
+- [Create GraphQL Resolvers](#create-graphql-resolvers)
+- [Mongo Database Setup](#mongo-database-setup)
+- [Environment Configuration](#environment-configuration)
+- [Node.js Server Setup](#nodejs-server-setup)
+
+### Dev Environment Setup
 
 We are going to set up our initial codebase and folder structure to get started. In this tutorial, I am going to use the Windows environment. The command structure is mostly the same and can be easily replicated to macOS.
 
@@ -20,7 +34,7 @@ mkdir client
 mkdir server
 ```
 
-## GraphQL Server Backend
+### GraphQL Server Backend
 
 In this section, we will set up the backend GraphQL server connecting to MongoDB. Following is our folder for our server. All of the source code will be in `src` folder. We created separate folders to store our `models` and `resolvers`.
 
@@ -115,8 +129,7 @@ npm i apollo-server-express dotenv express graphql
 npm i mongoose reflect-metadata type-graphql @typegoose/typegoose
 ```
 
-* `apollo-server-express` - This is the Apollo GraphQL Server with Express. 
-  
+* `apollo-server-express` - This is the Apollo GraphQL Server with Express.
 * `dotenv` - Dotenv module loads environment variables from a .env file into process.env.
 * `express` - Express is a minimal and flexible Node.js web application framework.
 * `graphql` - Implementation of GraphQL for creating APIs.
@@ -133,7 +146,6 @@ npm i -D nodemon ts-node
 ```
 
 * `nodemon` - Automatically restarting the node application when file changes in the directory are detected.
-  
 * `ts-node` -  Run typescript files directly, without the need for precompilation using tsc
 
 ### Creating Mongoose Schema and GraphQL Schema
@@ -146,7 +158,7 @@ We use the `Typegoose` library which acts as a wrapper for easily writing `Mongo
 
 We use the `Type-GraphQL` library to create our GraphQL schema. `@ObjectType` and `@Field` decorators are used for defining properties for `Notes` GraphQL Schema.
 
-By using `Typegoose` and `Type-GraphQL` packages, we eliminate the duplication of code for writing models and schemas separately for MongoDB and GraphQL. We use one single model `notes.model.ts` which acts as a bridge between `MongoDB` and `GraphQL`. 
+By using `Typegoose` and `Type-GraphQL` packages, we eliminate the duplication of code for writing models and schemas separately for MongoDB and GraphQL. We use one single model `notes.model.ts` which acts as a bridge between `MongoDB` and `GraphQL`.
 
 ```typescript
 import { prop as Property, getModelForClass, modelOptions } from '@typegoose/typegoose';
@@ -191,10 +203,11 @@ export const NotesModel = getModelForClass(Notes);
 Now it is time to create our `notes` resolver. Resolver is collection of functions which helps to retrieve field data (`Query`) and update data in the database (`mutation`). In our `notes` resolver we will implement following Queries and Mutations.
 
 * **Queries**
+  
   * getAllNotes()
   * getNotesById()
-
 * **Mutations**
+  
   * createNotes()
   * updateNotes()
   * deleteNotes()
@@ -289,4 +302,97 @@ export class NotesInput implements Partial<Notes> {
 }
 ```
 
-##### (Work in progress)
+### Mongo Database Setup
+
+We have created `models` and `resolvers` for Notes. We now have to create a mongo database. For this tutorial, we will use the cloud infrastructure provided by [MongoDB](https://www.mongodb.com/try) and create a free-tier database. Here are the steps for creating a database.
+
+* Sign-up for an account at https://account.mongodb.com/account/login
+  
+* Create a new `Cluster` under free-tier category.
+* Create a new `Collection` and name it as `notes`.
+* Create a db user (`dbUser`) under database access and assign read-write permissions to the database.
+* Note down the `username` and `password` created for the database user.
+* Under `Network access`, allow your current IP address to connect to the database cluster.
+
+We are now set with our Mongo database ready to be used with our GraphQL server. We will use following connection string format within our code for mongoDB.
+
+```
+mongodb+srv://dbUser:<password>@<clusterName>.mongodb.net/<DatabaseName>?retryWrites=true&w=majority
+```
+
+### Environment Configuration
+
+We need to store our variables like username, password, port numbers etc. We store that in an environment file (`.env`). In our application, we use `Dotenv` module that loads environment variables from a .env file into process.env.
+
+Create a new file `.env` at the root of the `server` folder. Make sure that you DO NOT check in this file to the github or any other sourcecode.
+
+Here is our `.env` file looks like.
+
+```
+DB_USERNAME=<db User created for MongoDB>
+DB_PASSWORD=<password>
+DB_NAME=notes
+PORT=<portnumber (3333)>
+```
+
+### Node.js Server Setup
+
+In this section we will write the code to setup our `node.js` server. We have all the available assets like models, resolvers, mongodb, configuration etc. We will wire up all these and start our node.js server using `apollo-server` and `express` modules.
+
+Create `index.ts` under `server\src` folder and use the following code to setup our node.js server.
+
+```TypeScript
+import { ApolloServer } from 'apollo-server-express';
+import Express from 'express';
+import 'reflect-metadata';
+import { buildSchema } from 'type-graphql';
+import { connect } from 'mongoose';
+import * as dotenv from 'dotenv';
+
+//Resolvers
+import { NotesResolver } from './resolvers/notes.resolvers';
+
+const executeMain = async () => {
+  dotenv.config();
+
+  const schema = await buildSchema({
+    resolvers: [NotesResolver],
+    emitSchemaFile: true,
+    validate: false,
+  });
+
+  const mongoose = await connect(
+    `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@<CLUSTERNAME>.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
+    { useNewUrlParser: true, useUnifiedTopology: true }
+  );
+
+  await mongoose.connection;
+
+  const server = new ApolloServer({ schema: schema });
+  const expressServer: Express.Application = Express();
+
+  server.applyMiddleware({ app: expressServer });
+
+  expressServer.listen({ port: process.env.PORT }, () =>
+    console.log(`Server ready and listening at ==> http://localhost:${process.env.PORT}${server.graphqlPath}`)
+  );
+};
+
+executeMain().catch((error) => {
+  console.log(error, 'error');
+});
+```
+
+Here are following steps which we follow to initiate our node.js server.
+
+* Load our `environment variables` like dbuser, password, ports etc into `process.env`.
+  
+* Build our `GraphQL` schema using `buildSchema` from `type-graphql` module.
+* Connect to `mongoDB` using `connect` from `mongoose` module.
+* Create an instance of `Apollo-Server` and `Express` server
+* Connect `Apollo-Server` to the `HTTP` framework such as `Express` using `ApplyMiddleware`.
+* Start `Express` server using `listen` command.
+* Once we start the server, we should see a message `Server ready and Listening at the <PORT>` on the terminal window.
+
+(Work in progress)
+
