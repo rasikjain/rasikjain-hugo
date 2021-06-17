@@ -468,5 +468,7 @@ Here is our GraphQL implementation in the browser.
 
 ![GraphQL Server](/images/Post-Simple-notes-app-graphql.png)
 
+In the next tutorial, we are going to implement `Client` using `React` framework and consume our `GraphQL` endpoint to create our Simple Notes app. Stay tuned for the update.
+
 Keep Hacking :-)
 
