@@ -42,7 +42,7 @@ mkdir server
 
 ### GraphQL Server Backend
 
-In this section, we will set up the backend GraphQL server connecting to MongoDB. Following is our folder for our server. All of the source code will be in the `src` folder. We created separate folders to store our `models` and `resolvers`.
+In this section, we will set up the backend GraphQL server connecting to MongoDB. Following is our folder structure for our server. All of the source code will be in the `src` folder. We created separate folders to store our `models` and `resolvers`.
 
 ### Folder Structure
 
