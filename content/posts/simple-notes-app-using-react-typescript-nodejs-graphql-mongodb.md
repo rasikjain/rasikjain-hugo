@@ -15,11 +15,15 @@ In the series of the blog post, I am going to walk through step by step process 
 - [Creating Node.js project](#creating-nodejs-project)
 - [Configuring TypeScript](#configuring-typescript)
 - [Installing Dependency Packages](#installing-dependency-packages)
-- [Creating Mongoose Schema and GraphQL Schema](#creating-mongoose-schema-and-graphql-schema)
-- [Create GraphQL Resolvers](#create-graphql-resolvers)
+- [Mongoose Schema and GraphQL Schema](#mongoose-schema-and-graphql-schema)
+- [GraphQL Resolvers](#graphql-resolvers)
 - [Mongo Database Setup](#mongo-database-setup)
 - [Environment Configuration](#environment-configuration)
 - [Node.js Server Setup](#nodejs-server-setup)
+- [Config files](#config-files)
+  - [package.json](#packagejson)
+  - [nodemon.json configuration](#nodemonjson-configuration)
+- [Running node.js / Server](#running-nodejs--server)
 
 ### Dev Environment Setup
 
@@ -148,7 +152,7 @@ npm i -D nodemon ts-node
 * `nodemon` - Automatically restarting the node application when file changes in the directory are detected.
 * `ts-node` -  Run typescript files directly, without the need for precompilation using tsc
 
-### Creating Mongoose Schema and GraphQL Schema
+### Mongoose Schema and GraphQL Schema
 
 In this section, we will create `Mongoose Schema` and `GraphQL Schema`. Mongoose Schema will interact with the `MongoDB` database. We will be using `GraphQL Schema` in our `Resolvers` to create endpoints using `Apollo-Server`.
 
@@ -198,7 +202,7 @@ export class Notes {
 export const NotesModel = getModelForClass(Notes);
 ```
 
-### Create GraphQL Resolvers
+### GraphQL Resolvers
 
 Now it is time to create our `notes` resolver. Resolver is collection of functions which helps to retrieve field data (`Query`) and update data in the database (`mutation`). In our `notes` resolver we will implement following Queries and Mutations.
 
@@ -307,7 +311,6 @@ export class NotesInput implements Partial<Notes> {
 We have created `models` and `resolvers` for Notes. We now have to create a mongo database. For this tutorial, we will use the cloud infrastructure provided by [MongoDB](https://www.mongodb.com/try) and create a free-tier database. Here are the steps for creating a database.
 
 * Sign-up for an account at https://account.mongodb.com/account/login
-  
 * Create a new `Cluster` under free-tier category.
 * Create a new `Collection` and name it as `notes`.
 * Create a db user (`dbUser`) under database access and assign read-write permissions to the database.
@@ -386,7 +389,6 @@ executeMain().catch((error) => {
 Here are following steps which we follow to initiate our node.js server.
 
 * Load our `environment variables` like dbuser, password, ports etc into `process.env`.
-  
 * Build our `GraphQL` schema using `buildSchema` from `type-graphql` module.
 * Connect to `mongoDB` using `connect` from `mongoose` module.
 * Create an instance of `Apollo-Server` and `Express` server
@@ -394,5 +396,77 @@ Here are following steps which we follow to initiate our node.js server.
 * Start `Express` server using `listen` command.
 * Once we start the server, we should see a message `Server ready and Listening at the <PORT>` on the terminal window.
 
-(Work in progress)
+In the above code, we build the `GraphQL` schema using `buildSchema` and pass `emitSchemaFile = true` as parameter. This setting will create a `schema.gql` file when the node.js server is started.
+
+### Config files
+
+In order to start of `node.js` server, we need config files like `package.json` and `nodemon.json`.
+
+#### package.json
+
+The `package.json` has the the configuration like dependencies packages, name, author, version scripts, etc. We define `start` command in the `scripts` section. We use `nodemon` package in the  `start` command to start our server and watch for any file changes. We start our node.js server by executing `npm start` from the terminal window.
+
+```json
+{
+  "name": "simple notes backend-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Author Name",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.6.0",
+    "apollo-server-express": "^2.24.0",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.7",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/graphql": "^14.5.0",
+    "@types/mongodb": "^3.6.12",
+    "@types/mongoose": "^5.10.5",
+    "@types/node": "^15.0.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
+```
+
+#### nodemon.json configuration
+
+`nodemon` is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+```json
+{
+    "watch": ["src", "bin"],
+    "ext": ".ts,.js",
+    "ignore": [],
+    "exec": "ts-node --transpile-only ./src/index.ts"
+}
+```
+
+### Running node.js / Server
+
+We are done with our development and configuration. It is time to start our server and execute some queries.
+
+Go to `Terminal` window and navigate to `server` folder. Execute `npm start` command. You will see that the typescript code will be transpiled and start our `node.js` server. Once the server is started, you should see following message in your terminal window.
+
+`Server ready and listening at ==> http://localhost:3333/graphql`
+
+Here is our GraphQL implementation in the browser.
+
+![GraphQL Server](/images/Post-Simple-notes-app-graphql.png)
+
+Keep Hacking :-)
 
