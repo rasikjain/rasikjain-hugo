@@ -5,7 +5,7 @@ slug = "simple-notes-app-using-react-typescript-nodejs-graphql-mongodb"
 tags = ["React", "TypeScript", "Node.js", "GraphQL", "MongoDB", "JavaScript"]
 +++
 
-In the series of the blog post, I am going to walk through step by step process of building a [Simple Notes](https://github.com/rasikjain/SimpleNotes) App using [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), [GraphQL ](https://graphql.org/) and [MongoDB](https://www.mongodb.com/). During the process of our development, we are going to use some useful npm packages like [Express](https://expressjs.com/), [Apollo-Server](https://www.apollographql.com/docs/apollo-server), [Typegoose](https://github.com/typegoose/typegoose), [Mongoose](https://mongoosejs.com/), [TypeGraphQL ](https://typegraphql.com/) and [Bootstrap](https://getbootstrap.com/).
+In the series of the blog post, I am going to walk through step by step process of building a [Simple Notes](https://github.com/rasikjain/SimpleNotes) App using [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), [GraphQL ](https://graphql.org/), and [MongoDB](https://www.mongodb.com/). During the process of our development, we are going to use some useful npm packages like [Express](https://expressjs.com/), [Apollo-Server](https://www.apollographql.com/docs/apollo-server), [Typegoose](https://github.com/typegoose/typegoose), [Mongoose](https://mongoosejs.com/), [TypeGraphQL ](https://typegraphql.com/), and [Bootstrap](https://getbootstrap.com/).
 
 **Table of Content**
 
@@ -40,7 +40,7 @@ mkdir server
 
 ### GraphQL Server Backend
 
-In this section, we will set up the backend GraphQL server connecting to MongoDB. Following is our folder for our server. All of the source code will be in `src` folder. We created separate folders to store our `models` and `resolvers`.
+In this section, we will set up the backend GraphQL server connecting to MongoDB. Following is our folder for our server. All of the source code will be in the `src` folder. We created separate folders to store our `models` and `resolvers`.
 
 ### Folder Structure
 
@@ -204,7 +204,7 @@ export const NotesModel = getModelForClass(Notes);
 
 ### GraphQL Resolvers
 
-Now it is time to create our `notes` resolver. Resolver is collection of functions which helps to retrieve field data (`Query`) and update data in the database (`mutation`). In our `notes` resolver we will implement following Queries and Mutations.
+Now it is time to create our `notes` resolver. Resolver is a collection of functions that helps to retrieve field data (`Query`) and update data in the database (`mutation`). In our `notes resolver` we will implement following Queries and Mutations.
 
 * **Queries**
   
@@ -277,7 +277,7 @@ export class NotesResolver {
 }
 ```
 
-We use `@Resolver`, `@Query` and `@Mutation` directives from `TypeGraphQL` package to create our GraphQL schema (`schema.gql`).
+We use `@Resolver`, `@Query`, and `@Mutation` directives from the `TypeGraphQL` package to create our GraphQL schema (`schema.gql`).
 
 For `createNotes` and `updateNotes` mutations, we use `NotesInput` type as the input paramter. This `NotesInput` contains the data for creating and editing the notes.
 
@@ -311,13 +311,13 @@ export class NotesInput implements Partial<Notes> {
 We have created `models` and `resolvers` for Notes. We now have to create a mongo database. For this tutorial, we will use the cloud infrastructure provided by [MongoDB](https://www.mongodb.com/try) and create a free-tier database. Here are the steps for creating a database.
 
 * Sign-up for an account at https://account.mongodb.com/account/login
-* Create a new `Cluster` under free-tier category.
+* Create a new `Cluster` under the free-tier category.
 * Create a new `Collection` and name it as `notes`.
 * Create a db user (`dbUser`) under database access and assign read-write permissions to the database.
 * Note down the `username` and `password` created for the database user.
 * Under `Network access`, allow your current IP address to connect to the database cluster.
 
-We are now set with our Mongo database ready to be used with our GraphQL server. We will use following connection string format within our code for mongoDB.
+We are now set with our Mongo database ready to be used with our GraphQL server. We will use the following connection string format within our code for mongoDB.
 
 ```
 mongodb+srv://dbUser:<password>@<clusterName>.mongodb.net/<DatabaseName>?retryWrites=true&w=majority
@@ -325,9 +325,9 @@ mongodb+srv://dbUser:<password>@<clusterName>.mongodb.net/<DatabaseName>?retryWr
 
 ### Environment Configuration
 
-We need to store our variables like username, password, port numbers etc. We store that in an environment file (`.env`). In our application, we use `Dotenv` module that loads environment variables from a .env file into process.env.
+We need to store our variables like username, password, port numbers, etc. We store that in an environment file (`.env`). In our application, we use `Dotenv` module that loads environment variables from a .env file into process.env.
 
-Create a new file `.env` at the root of the `server` folder. Make sure that you DO NOT check in this file to the github or any other sourcecode.
+Create a new file `.env` at the root of the `server` folder. Make sure that you DO NOT check in this file to the Github.
 
 Here is our `.env` file looks like.
 
@@ -386,9 +386,9 @@ executeMain().catch((error) => {
 });
 ```
 
-Here are following steps which we follow to initiate our node.js server.
+Following are the steps which we follow to initiate our node.js server.
 
-* Load our `environment variables` like dbuser, password, ports etc into `process.env`.
+* Load our `environment variables` like dbuser, password, ports, etc into `process.env`.
 * Build our `GraphQL` schema using `buildSchema` from `type-graphql` module.
 * Connect to `mongoDB` using `connect` from `mongoose` module.
 * Create an instance of `Apollo-Server` and `Express` server
@@ -400,11 +400,11 @@ In the above code, we build the `GraphQL` schema using `buildSchema` and pass `e
 
 ### Config files
 
-In order to start of `node.js` server, we need config files like `package.json` and `nodemon.json`.
+To start of `node.js` server, we need config files like `package.json` and `nodemon.json`.
 
 #### package.json
 
-The `package.json` has the the configuration like dependencies packages, name, author, version scripts, etc. We define `start` command in the `scripts` section. We use `nodemon` package in the  `start` command to start our server and watch for any file changes. We start our node.js server by executing `npm start` from the terminal window.
+The `package.json` has the configuration like dependencies packages, name, author, version scripts, etc. We define the `start` command in the `scripts` section. We use `nodemon` package in the  `start` command to start our server and watch for any file changes. We start our node.js server by executing `npm start` from the terminal window.
 
 ```json
 {
@@ -460,7 +460,7 @@ The `package.json` has the the configuration like dependencies packages, name, a
 
 We are done with our development and configuration. It is time to start our server and execute some queries.
 
-Go to `Terminal` window and navigate to `server` folder. Execute `npm start` command. You will see that the typescript code will be transpiled and start our `node.js` server. Once the server is started, you should see following message in your terminal window.
+Go to the `Terminal` window and navigate to the `server` folder. Execute `npm start` command. You will see that the typescript code will be transpiled and start our `node.js` server. Once the server is started, you should see the following message in your terminal window.
 
 `Server ready and listening at ==> http://localhost:3333/graphql`
 
