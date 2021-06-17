@@ -1,5 +1,5 @@
 +++
-date = "2021-05-20"
+date = "2021-06-14"
 title = "Simple Notes app using React, TypeScript, Node.js, GraphQL and MongoDB"
 slug = "simple-notes-app-using-react-typescript-nodejs-graphql-mongodb"
 tags = ["React", "TypeScript", "Node.js", "GraphQL", "MongoDB", "JavaScript"]
