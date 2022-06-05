@@ -42,6 +42,7 @@ To keep my entrepreneurial spirit alive and catchup with evolving technologies, 
         <li>Redux</li>
         <li>Boostrap</li>
         <li>HTML5</li>
+        <li>Material UI</li>
     </ul>
 </div>
 
