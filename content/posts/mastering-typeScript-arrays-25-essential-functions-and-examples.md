@@ -2,7 +2,7 @@
 date = "2023-04-22"
 title = "Mastering TypeScript Arrays: 25 Essential Functions and Examples"
 slug = "mastering-typeScript-arrays-25-essential-functions-and-examples"
-tags = ["TypeScript", "Arrays"]
+tags = ["TypeScript", "Arrays", "Programming", "Coding"]
 +++
 
 ### Introduction:
