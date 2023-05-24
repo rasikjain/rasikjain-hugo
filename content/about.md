@@ -3,27 +3,23 @@ title = "About"
 slug = "about"
 +++
 
-## Who am I?
+I am **Rasik Jain**, a highly skilled **Software Engineer** & Architect based in New Jersey, USA. With over 15 years of experience in the IT industry, I have worked with a diverse range of clients, including Fortune 500 enterprises and small companies in the greater NYC area. My expertise spans multiple verticals, including FinTech, Banking, Accounting, Healthcare, Technology, and Telecommunication.
 
-Hi, I am <strong>Rasik Jain</strong>, Software Engineer / Architect / Entrepreneur based in New Jersey, USA. I enjoy building products and tools, talking to people, educating peers on cyber-security & problem solving.
+In my current role, I specialize in **Full-Stack** Development using cutting-edge technologies such as **ReactJS, TypeScript, NodeJS, GraphQL, MongoDB, Javascript, C#, .NET Core, AWS Cloud, and SQL**. Throughout my career, I have held various positions, from an individual contributor to leading and managing teams, demonstrating my ability to deliver exceptional results and drive project success.
 
-I have been working / consulting in IT industry for more than 15 years with clients from fortune 500 enterprises to small companies in tri-state area. Worked in different verticals like **FinTech**, Banking, Accounting, Healthcare, **Technology** and Telecommunication.
+I hold a **Master's degree** from Florida International University [(FIU)](https://www.fiu.edu), which has equipped me with a solid academic foundation to complement my extensive practical experience.
 
-I am currently working in **Full-Stack** Development using **ReactJs, TypeScript, GraphQL, MongoDB, Javascript, C#, .Net Core, AWS Cloud & SQL**. Worked with Clients in various roles from individual contributor to leading and managing a team.
+Beyond my professional pursuits, I have a passion for travel, reading, spending quality time with my family, and engaging in meaningful conversations with people from diverse backgrounds.
 
-I have a **Master's** degree from Florida International University [(FIU)](https://www.fiu.edu).
+## Experience:
 
-Other than software, I enjoy travelling, reading, family time and talking to people.
+Throughout my career, I have played a pivotal role as a Software Engineer in helping clients achieve their objectives and goals. I have been instrumental in the entire software development life cycle, including **requirements** gathering, **design**, prototyping, and **solution** development. I thrive in collaborative team environments, following **Agile and Scrum** methodologies to drive efficient and effective project outcomes. Additionally, I have contributed significantly to enhancing application security by identifying vulnerabilities and implementing **risk mitigation** strategies. Furthermore, I have actively shared my expertise and educated fellow team members on **cybersecurity practices**, software design, **patterns, and best practices**.
 
-## Experience
+As an experienced professional, I have consistently delivered substantial cost savings in terms of financial and human resources. I achieve this through process automation, continuous integration, rigorous testing, code reviews, and the implementation of appropriate tools. Moreover, I have successfully resolved scalability challenges in distributed systems through performance tuning of data queries and optimization of server resources and UI assets.
 
-As a consultant & Software Engineer, I was instrumental in helping clients to realize their objectives and goals. Worked with team members in gathering **requirements**, **design**, creating prototypes and **developing solutions**. Worked in team collaboration by following processes and methodologies involving **Agile** and **Scrum**. Worked with teams in securing the enterprise applications by finding security **vulerabilities** and mitigating **risks**. I also help and educate the team members and other engineers on **cyber-security**, software design, patterns and best practices.
+## Interests:
 
-As an experienced professional, I was able to bring substantial savings in terms of financial and human resources. This involved **Process Automation, Continious Integration**, Testing, Code reviews, using appropriate tools and at the same time resolving scalability issues of the distributed systems by **Performance tuning** of underlying data queries and **Optimization** of **Server resources** and UI assets.
-
-## Interest
-
-To keep my entrepreneurial spirit alive and catchup with evolving technologies, I love reading technical blogs on different subjects, enjoy discussion on [Hacker News](https://news.ycombinator.com) and checking out [Indie Hackers](https://www.indiehackers.com/)
+To foster my entrepreneurial spirit and stay abreast of evolving technologies, I avidly read technical blogs across various subjects. I enjoy engaging in discussions on platforms like Hacker News and exploring the vibrant community of Indie Hackers.
 
 ## Specialties/Skillset
 
@@ -111,8 +107,8 @@ To keep my entrepreneurial spirit alive and catchup with evolving technologies, 
 
 </div>
 
-## Get in Touch
+## Get in Touch:
 
-Thanks for stopping by. I am available for **freelance** projects, **contract** assignment and **full-time** employment. If you want to have a discussion, consultation or engagement, feel free to reach me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile,%20source:rasikjain.com 'jainrasik - Gmail') OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik '@jainrasik - Twitter').
+Thank you for taking the time to learn more about me. I am available for **freelance** projects, **contract** assignments, and **full-time** employment opportunities. If you wish to discuss potential collaborations, consultations, or engagements, please feel free to reach out to me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile,%20source:rasikjain.com 'jainrasik - Gmail') OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik '@jainrasik - Twitter').
 
-**That's all folks :-)**
+I look forward to connecting with you soon!
