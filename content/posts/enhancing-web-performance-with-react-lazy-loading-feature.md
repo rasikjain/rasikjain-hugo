@@ -19,27 +19,47 @@ Prior to the introduction of lazy loading in React, developers had to manually i
 
 React's lazy loading feature enables us to **split our code into separate chunks and load them on-demand**. This feature is particularly useful when dealing with large components or routes that are not immediately required during the initial rendering of the application.
 
-To implement lazy loading in React, we can make use of the `React.lazy` function, which allows us to define a dynamic import statement for the component we want to lazy load. Let's take a look at an example:
+To implement lazy loading in React, we can make use of the `React.lazy` function, which allows us to define a dynamic import statement for the component we want to lazy load.
+
+#### Example: Employee Details Page
+
+Let's consider an Employee Details Page in our React application, where we display detailed information about a specific employee. We will create a separate `EmployeeDetails` component and lazy load it to improve the performance of our application.
+
+1. Create the EmployeeDetails Component:
+   Create a new file called `EmployeeDetails.tsx` and define the `EmployeeDetails` component as follows:
 
 ```tsx
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
 
-const LazyComponent = lazy(() => import('./LazyComponent'));
+const EmployeeDetails: React.FC = () => {
+  // Component logic goes here
+  return <div>{/* Employee details rendering */}</div>;
+};
 
-const App: React.FC = () => {
+export default EmployeeDetails;
+```
+
+2. Implement Lazy Loading:
+   In the file where you have your employee list or any other relevant component, use the `React.lazy` function to lazily import the `EmployeeDetails` component. Wrap the lazy import with the `Suspense` component and provide a fallback UI, which will be displayed while the component is being loaded:
+
+```tsx
+import React, { Suspense } from 'react';
+
+const EmployeeDetails = React.lazy(() => import('./EmployeeDetails'));
+
+const EmployeeListPage: React.FC = () => {
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <LazyComponent />
+      {/* Render employee list */}
+      <Suspense fallback={<div>Loading employee details...</div>}>
+        <EmployeeDetails />
       </Suspense>
     </div>
   );
 };
 
-export default App;
+export default EmployeeListPage;
 ```
-
-In the above example, we import the `lazy` function from the React module and use it to define a dynamic import for the `LazyComponent`. The `Suspense` component is used to wrap the lazy-loaded component and provides a fallback UI while the component is being loaded.
 
 When the `LazyComponent` is needed, React will automatically load the corresponding JavaScript bundle. This allows us to split our application code into smaller chunks, improving the initial loading time. The fallback UI shown within the `Suspense` component is rendered until the lazy-loaded component is ready.
 
