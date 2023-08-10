@@ -1,7 +1,7 @@
 +++
 date = "2023-05-21"
 title = "Mastering Chart.js in React: A Comprehensive Guide with Examples"
-slug = "mastering-chartjs-in-react:-a-comprehensive-guide-with-examples"
+slug = "mastering-chartjs-in-react-a-comprehensive-guide-with-examples"
 tags = ["React", "Chartjs"]
 +++
 
