@@ -92,8 +92,8 @@ export default function ProductDetails({ productDetails }) {
   return (
     <div>
       <h1>{productDetails.name}</h1>
-      <p>{employeeDetails.description}</p>
-      <p>{employeeDetails.price}</p>
+      <p>{productDetails.description}</p>
+      <p>{productDetails.price}</p>
     </div>
   );
 }
