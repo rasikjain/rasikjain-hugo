@@ -18,6 +18,7 @@ disqusShortname = ""
 googleAnalytics = "UA-8667481-1"
 enableRobotsTXT = false
 
+
 [params]
     author = "Rasik Jain"
     description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."    
@@ -36,6 +37,9 @@ enableRobotsTXT = false
     hideCredits = false
     hideCopyright = false
     since = 2018
+
+    # Google Analytics 4
+    googleAnalyticsID = "G-821HSLZZ5Y"
 
     # Git Commit in Footer, uncomment the line below to enable it.
     # commit = "https://github.com/luizdepra/hugo-coder/tree/"
