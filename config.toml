@@ -148,7 +148,7 @@ enableRobotsTXT = false
         [languages.en.params]
         author = "Rasik Jain"
         info = "Software Engineer & Enterprise Architect"
-        subInfo = "(skills) => { React | TypeScript | GraphQL | Node.js | AWS | Cybersecurity }"
+        subInfo = "(skills) => { React | TypeScript | GraphQL | Node.js | .NET | C# | AWS | Cybersecurity }"
         subInfo2 = "Software Engineering, Consulting, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
         metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, React, TypeScript, GraphQL, Javascript, MongoDB, C#, AWS Cloud and Cyber Security."
         metaKeywords = "technology, fullstack, javascript, React, TypeScript, GraphQL, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
