@@ -23,12 +23,12 @@ enableRobotsTXT = false
     author = "Rasik Jain"
     description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."    
     keywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-    info = "Software Engineer and Enterprise Architect - ReactJS | C# | AWS"
-    subInfo = "Consulting, Software Engineering, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"    
+    info = "AI / ML and Full-Stack Engineer "
+    subInfo = "Gen AI | LLM | RAG Pipelines | LangChain | Tensorflow | NumPy | Pandas | Jupyter | Python | React | JavaScript | Cloud"
     avatarurl = "images/avatar_rasik.jpg"
     #gravatar = "jainrasik@gmail.com"
     footercontent = ""
-    hometitle = "Rasik Jain - Software Engineer | Full-Stack | ReactJS | C# | AWS"
+    hometitle = "Rasik Jain - Software Engineer | Gen AI | ML | Full-Stack | Python | React | Node.js | Javascript | AWS"
     headertitle = "Rasik Jain"
 
     dateformat = "January 2, 2006"
@@ -147,12 +147,12 @@ enableRobotsTXT = false
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Rasik Jain"
-        info = "Software Engineer & Enterprise Architect"
-        subInfo = "(skills) => { React | TypeScript | GraphQL | Node.js | .NET | C# | AWS | Cybersecurity }"
-        subInfo2 = "Software Engineering, Consulting, Product Development, Solution & Enterprise Architecture, Agile/Scrum, Full-Stack, Cloud Computing & Data Analytics"
-        metaDescription = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, React, TypeScript, GraphQL, Javascript, MongoDB, C#, AWS Cloud and Cyber Security."
-        metaKeywords = "technology, fullstack, javascript, React, TypeScript, GraphQL, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-        hometitle = "Rasik Jain - Software Engineer | Full-Stack | React | TypeScript | GraphQL | Node.js | Javascript | AWS"
+        info = "AI / ML and Full-Stack Engineer "
+        subInfo = "Generative AI | ML | LLM | RAG | AI Agents | Tensorflow | NumPy | Pandas | Jupyter | Python | React | JavaScript | Cloud"
+        subInfo2 = "Software Engineer with expertise in AI and ML, delivering intelligent, scalable, and secure solutions that integrate modern web development with data-driven insights."
+        metaDescription = "Rasik Jain - Experienced Gen AI / ML Full-Stack Software engineer and Enterprise Architect. Providing consulting services with focus on Gen AI, LLM, RAG Pipelines, LangChain, TensorFlow, NumPy, Pandas, Jupyter, Python, React, JavaScript and Cloud."
+        metaKeywords = "Gen AI, ML, Artificial Intelligence, Machine Learning, LLM, LangChain, Rag Piplines, AI Agents, Jupyter, NumPy, Pandas, AWS, fullstack, full-stack, javascript, React, TypeScript, GraphQL, cloud, aws, cyber security, node.js, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
+        hometitle = "Rasik Jain - Software Engineer | Gen AI | ML | AI Agents | Full-Stack | Python | React | Node.js | Javascript | AWS"
 
         hideCopyright = false     
         hideCredits = false
