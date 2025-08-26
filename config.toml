@@ -148,7 +148,7 @@ enableRobotsTXT = false
         [languages.en.params]
         author = "Rasik Jain"
         info = "AI / ML and Full-Stack Engineer "
-        subInfo = "Generative AI | ML | LLM | RAG | AI Agents | Tensorflow | NumPy | Pandas | Jupyter | Python | React | JavaScript | Cloud"
+        subInfo = "Generative AI ㆍ ML ㆍ LLM ㆍ RAG ㆍ AI Agents ㆍ Tensorflow ㆍ NumPy ㆍ Pandas ㆍ Jupyter ㆍ Python ㆍ React ㆍ JavaScript ㆍ Cloud"
         subInfo2 = "Software Engineer with expertise in AI and ML, delivering intelligent, scalable, and secure solutions that integrate modern web development with data-driven insights."
         metaDescription = "Rasik Jain - Experienced Gen AI / ML Full-Stack Software engineer and Enterprise Architect. Providing consulting services with focus on Gen AI, LLM, RAG Pipelines, LangChain, TensorFlow, NumPy, Pandas, Jupyter, Python, React, JavaScript and Cloud."
         metaKeywords = "Gen AI, ML, Artificial Intelligence, Machine Learning, LLM, LangChain, Rag Piplines, AI Agents, Jupyter, NumPy, Pandas, AWS, fullstack, full-stack, javascript, React, TypeScript, GraphQL, cloud, aws, cyber security, node.js, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
