@@ -3,87 +3,121 @@ title = "About"
 slug = "about"
 +++
 
-I am **Rasik Jain**, a highly skilled **Software Engineer** & Architect based in New Jersey, USA. With over 15 years of experience in the IT industry, I have worked with a diverse range of clients, including Fortune 500 enterprises and small companies in the greater NYC area. My expertise spans multiple verticals, including FinTech, Banking, Accounting, Healthcare, Technology, and Telecommunication.
+I am **Rasik Jain**, a Software Engineer and Architect based in New Jersey. My current mission is building the next generation of **intelligent, AI-native applications**. I focus on the intersection of **Generative AI** and modern **Front-end engineering**, transforming complex machine learning capabilities into intuitive, high-performance user experiences.
 
-In my current role, I specialize in **Full-Stack** Development using cutting-edge technologies such as **ReactJS, TypeScript, NodeJS, GraphQL, MongoDB, Javascript, C#, .NET Core, AWS Cloud, and SQL**. Throughout my career, I have held various positions, from an individual contributor to leading and managing teams, demonstrating my ability to deliver exceptional results and drive project success.
+Rather than building simple interfaces, I architect end-to-end systems that can reason. My daily work involves designing **Agentic RAG pipelines** and sophisticated **AI Agents** using **LangChain** and **LangGraph**. By bridging the gap between raw data and the user, I create applications that leverage **LLMs (OpenAI, Gemini, Groq)** to solve actual business problems rather than just providing simple chat.
 
-I hold a **Master's degree** from Florida International University [(FIU)](https://www.fiu.edu), which has equipped me with a solid academic foundation to complement my extensive practical experience.
+### The AI & Data Science Stack
 
-Beyond my professional pursuits, I have a passion for travel, reading, spending quality time with my family, and engaging in meaningful conversations with people from diverse backgrounds.
+My approach to AI is grounded in the fundamentals of Data Science and Engineering. I spend a significant amount of my time in **Jupyter Notebooks** and Python, handling everything from **Data Ingestion** to **Feature Engineering** and **EDA** (Exploratory Data Analysis).
 
-## Experience:
+* **Generative AI:** I specialize in building with **LCEL (LangChain Expression Language)**, managing **Embeddings**, and optimizing retrieval using Vector Databases like **Pinecone**, **ChromaDB**, and **AstraDB**.
 
-Throughout my career, I have played a pivotal role as a Software Engineer in helping clients achieve their objectives and goals. I have been instrumental in the entire software development life cycle, including **requirements** gathering, **design**, prototyping, and **solution** development. I thrive in collaborative team environments, following **Agile and Scrum** methodologies to drive efficient and effective project outcomes. Additionally, I have contributed significantly to enhancing application security by identifying vulnerabilities and implementing **risk mitigation** strategies. Furthermore, I have actively shared my expertise and educated fellow team members on **cybersecurity practices**, software design, **patterns, and best practices**.
 
-As an experienced professional, I have consistently delivered substantial cost savings in terms of financial and human resources. I achieve this through process automation, continuous integration, rigorous testing, code reviews, and the implementation of appropriate tools. Moreover, I have successfully resolved scalability challenges in distributed systems through performance tuning of data queries and optimization of server resources and UI assets.
+* **Data & ML:** I rely on Pandas and NumPy for data manipulation and use Scikit-learn to build and validate traditional machine learning models.
 
-## Interests:
 
-To foster my entrepreneurial spirit and stay abreast of evolving technologies, I avidly read technical blogs across various subjects. I enjoy engaging in discussions on platforms like Hacker News and exploring the vibrant community of Indie Hackers.
+* **NLP Systems:** I focus on building reliable NLP systems, utilizing modern architectures to handle complex language processing tasks.
+
+
+* **Engineering Quality:** I use **Pydantic** and **Dataclasses** for rigorous data validation and **Matplotlib** to visualize model performance and data trends.
+
+### Front-end & Prototyping
+
+A great model is only as good as its accessibility. I leverage my expertise in **JavaScript** and **Node.js** to build reactive, fluid front-ends. For rapid AI prototyping and internal tooling, I utilize **Streamlit** to turn data scripts into shareable web apps. I believe the **"AI Engineer"** of the future must be a master of the **Full-stack**, ensuring that the intelligence on the backend feels seamless to the end-user.
+
+### Engineering Foundations & Experience
+
+While my current focus is GenAI, my perspective is shaped by **over 15 years of experience** in the IT industry, working with clients ranging from Fortune 500 enterprises to startups in the NYC area. I have held various positions, from individual contributor to team leader, across verticals like FinTech, Banking and Healthcare sectors.
+
+I spent years architecting scalable, mission-critical systems using **.NET and C#** for global institutions like **JPMorgan Chase** and **American Express**. This foundation of engineering rigor—incorporating **Agile/Scrum** methodologies, process automation, and **CI/CD**—is what I bring to the "new school" AI world. It ensures that the **Data Engineering** pipelines I build today are not just innovative prototypes, but are also secure, scalable, and maintainable for production use.
+
+I hold a **Master's degree** from **Florida International University [(FIU)](https://www.fiu.edu)**, which provided the academic foundation to complement my extensive practical experience in the field.
+
+### Beyond the Code
+
+To stay abreast of evolving technologies, I am an avid reader of technical blogs and enjoy engaging in discussions on platforms like **Hacker News** and **Indie Hackers**. Outside of work, I have a passion for travel, reading, and spending quality time with my family.
 
 ## Specialties/Skillset
 
-### Web
+### Generative AI
 
 <div class="horizontalList">
     <ul>
-        <li>ReactJs</li>
-        <li>TypeScript</li>
-        <li>Node.js</li>
-        <li>GraphQL</li>
+        <li>LLMs (OpenAI, Gemini, Groq)</li>
+        <li>Rag Pipelines</li>
+        <li>AI Agents (LangChain, LangGraph)</li>
+        <li>VectorDBs (Pinecone, ChromaDB, FAISS)</li>
+        <li>LCEL</li>
+    </ul>
+</div>
+
+### Data Science & ML
+<div class="horizontalList">
+    <ul>
+        <li>Pandas</li>
+        <li>NumPy</li>
+        <li>Scikit-learn</li>
+        <li>Hugging Face</li>
+        <li>Matplotlib</li>
+        <li>Streamlit</li>
+    </ul>
+</div>
+
+### Languages
+<div class="horizontalList">
+    <ul>
         <li>JavaScript</li>
-        <li>Express</li>
-        <li>Apollo Server</li>
-        <li>ES6</li>
-        <li>Redux</li>
-        <li>Boostrap</li>
-        <li>HTML5</li>
-        <li>Material UI</li>
-    </ul>
-</div>
-
-### Microsoft:
-
-<div class="horizontalList">
-    <ul>
-        <li>.Net Core</li>
+        <li>TypeScript</li>
+        <li>Python</li>
         <li>C#</li>
-        <li>Asp.Net MVC</li>
-        <li>Web API</li>
-        <li>Linq</li>
-        <li>Entity Framework</li>
+        <li>SQL</li>
     </ul>
 </div>
 
-### Data
+### Web and Frontend
+<div class="horizontalList">
+    <ul>
+        <li>React.js</li>
+        <li>Next.js</li>
+        <li>State Management (Redux, Context)</li>
+        <li>Data Visualization (D3.js, Chart.js)</li>
+        <li>Tailwind CSS</li>
+        <li>HTML5</li>
+    </ul>
+</div>
+
+### Backend (APIs)
+<div class="horizontalList">
+    <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>ASP.NET Core (WebAPI, LINQ, EF)</li>
+        <li>FastAPI</li>
+    </ul>
+</div>
+
+### Databases
 
 <div class="horizontalList">
     <ul>
-        <li>Microsoft SQL Server</li>
+        <li>PostgreSQL</li>
         <li>MongoDB</li>
         <li>Redis</li>
-        <li>Redshift</li>
-        <li>Oracle</li>
-        <li>MySQL</li>
-        <li>DynamoDB</li>
+        <li>Microsoft SQL Server</li>
+        <li>Firebase</li>
     </ul>
 
 </div>
 
-### Cloud
+### Cloud & DevOps
 
 <div class="horizontalList">
     <ul>
-        <li>AWS</li>
+        <li>AWS (Aurora, DynamoDB, IAM)</li>
         <li>Azure</li>
+        <li>GCP</li>
         <li>Serverless Functions</li>
-        <li>CloudTrail</li>
-        <li>CloudWatch</li>
-        <li>S3</li>
-        <li>EC2</li>
-        <li>SQS</li>
-        <li>SNS</li>
-        <li>RDS</li>
     </ul>
 </div>
 
@@ -93,22 +127,23 @@ To foster my entrepreneurial spirit and stay abreast of evolving technologies, I
     <ul>
         <li>Jira</li>
         <li>Git</li>
-        <li>NPM</li>
-        <li>Axios</li>
-        <li>WebPack</li>
-        <li>Babel</li>
         <li>Docker</li>
-        <li>Salesforce</li>
+        <li>Jenkins</li>
         <li>Splunk</li>
         <li>SumoLogic</li>
-        <li>New Relic</li>
-        <li>Sitecore</li>
     </ul>
 
 </div>
 
-## Get in Touch:
+### Get in Touch
 
-Thank you for taking the time to learn more about me. I am available for **freelance** projects, **contract** assignments, and **full-time** employment opportunities. If you wish to discuss potential collaborations, consultations, or engagements, please feel free to reach out to me at [<i class="far fa-lg fa-envelope" style="color: #212121"></i>](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile,%20source:rasikjain.com 'jainrasik - Gmail') OR [<i class="fab fa-lg fa-twitter" style="color: #212121"></i>](https://twitter.com/jainrasik '@jainrasik - Twitter').
+If you are looking for someone to help with **consultations**, **contract assignments**, and **full-time** roles. I'd love to chat
+
+* **<i class="far fa-lg fa-envelope" style="color: #212121"></i> Email:** [jainrasik AT gmail dot com](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile) 
+
+* **<i class="fab fa-lg fa-linkedin" style="color: #212121"></i> LinkedIn:** [@rasikjain](https://www.linkedin.com/in/rasikjain/) 
+
+* **<i class="fab fa-lg fa-twitter" style="color: #212121"></i> Twitter/X:** [@jainrasik](https://twitter.com/jainrasik) 
+
 
 I look forward to connecting with you soon!

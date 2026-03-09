@@ -1,5 +1,5 @@
 baseurl = "https://www.rasikjain.com"
-title = "Rasik Jain - Software Engineer | Consulting"
+title = "Rasik Jain - Senior Architect | Generative AI & Full-Stack Engineering"
 
 theme = "hugo-coder"
 
@@ -20,15 +20,12 @@ enableRobotsTXT = false
 
 
 [params]
-    author = "Rasik Jain"
-    description = "Rasik Jain - Experienced Software engineer and Enterprise Architect. Providing consulting services with focus on full-stack, Javascript, ReactJS, C#, AWS Cloud and Cyber Security."    
-    keywords = "technology, full stack, javascript, reactjs, c#, cloud, aws, cyber security, node.js, .net core, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-    info = "AI / ML and Full-Stack Engineer "
-    subInfo = "Gen AI | LLM | RAG Pipelines | LangChain | Tensorflow | NumPy | Pandas | Jupyter | Python | React | JavaScript | Cloud"
+    description = "Rasik Jain — Architect specializing in Generative AI and Full-Stack engineering. Expert in building Agentic RAG pipelines and intelligent applications using LangChain, Python, React and JavaScript."    
+    keywords = "Generative AI, Agentic RAG, AI Agents, LangChain, LangGraph, LLMs, OpenAI, Gemini, Python, ReactJS, TypeScript, AI Architect, Solution Architect, AWS, Azure, Cloud, Vector Databases, ChromaDB, Pinecone, MLOps, Scalable AI, Consulting."
     avatarurl = "images/avatar_rasik.jpg"
     #gravatar = "jainrasik@gmail.com"
     footercontent = ""
-    hometitle = "Rasik Jain - Software Engineer | Gen AI | ML | Full-Stack | Python | React | Node.js | Javascript | AWS"
+    hometitle = "Rasik Jain - Senior Architect | Generative AI & Full-Stack Engineering | AI Agents | Agentic RAG | Full-Stack | Python | React | Node.js | TypeScript | Cloud (AWS, Azure)"
     headertitle = "Rasik Jain"
 
     dateformat = "January 2, 2006"
@@ -54,7 +51,7 @@ enableRobotsTXT = false
     colorscheme = "light"
 
     # Series see also post count
-    maxSeeAlsoItems = 15
+    maxSeeAlsoItems = 20
 
     # Enable 
 
@@ -79,7 +76,7 @@ enableRobotsTXT = false
 
 [params.hire]
     isactive = true
-    title = "( Open to Opportunities )"
+    title = "( Available for Consulting & Projects )"
     url = "/about/"
     
 [[params.social]]
@@ -147,12 +144,12 @@ enableRobotsTXT = false
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Rasik Jain"
-        info = "AI / ML and Full-Stack Engineer "
-        subInfo = "Generative AI ㆍ ML ㆍ LLM ㆍ RAG ㆍ AI Agents ㆍ Tensorflow ㆍ NumPy ㆍ Pandas ㆍ Jupyter ㆍ Python ㆍ React ㆍ JavaScript ㆍ Cloud"
-        subInfo2 = "Software Engineer with expertise in AI and ML, delivering intelligent, scalable, and secure solutions that integrate modern web development with data-driven insights."
-        metaDescription = "Rasik Jain - Experienced Gen AI / ML Full-Stack Software engineer and Enterprise Architect. Providing consulting services with focus on Gen AI, LLM, RAG Pipelines, LangChain, TensorFlow, NumPy, Pandas, Jupyter, Python, React, JavaScript and Cloud."
-        metaKeywords = "Gen AI, ML, Artificial Intelligence, Machine Learning, LLM, LangChain, Rag Piplines, AI Agents, Jupyter, NumPy, Pandas, AWS, fullstack, full-stack, javascript, React, TypeScript, GraphQL, cloud, aws, cyber security, node.js, enterprise architecture, startups, consulting, remote, freelancing, blog, developer, personal"
-        hometitle = "Rasik Jain - Software Engineer | Gen AI | ML | AI Agents | Full-Stack | Python | React | Node.js | Javascript | AWS"
+        info = "Senior Architect - Generative AI & Full-Stack"
+        subInfo = "AI Agents ㆍ Agentic RAG ㆍ LangGraph/LangChain ㆍ LLMs ㆍ Python ㆍ React ㆍ TypeScript ㆍ Cloud (AWS/Azure) ㆍ CI/CD"
+        subInfo2 = "Architect focused on building end-to-end systems that move beyond simple chat, bridging the gap between raw data and the user through intelligent applications that can reason."
+        metaDescription = "Rasik Jain — Senior Architect specializing in Generative AI and Full-Stack engineering. Building production-ready Agentic RAG pipelines and intelligent applications that move beyond simple chat using LLMs, LangChain, Python, and React."
+        metaKeywords = "Generative AI, Agentic RAG, AI Agents, LangChain, LangGraph, LLMs, OpenAI, Gemini, Python, ReactJS, TypeScript, AI Architect, Solution Architect, AWS, Azure, Cloud, Vector Databases, ChromaDB, Pinecone, MLOps, Scalable AI, Consulting."
+        hometitle = "Rasik Jain - Senior Architect | Generative AI & Full-Stack Engineering | AI Agents | Agentic RAG | Full-Stack | Python | React | Node.js | TypeScript | Cloud (AWS, Azure)"
 
         hideCopyright = false     
         hideCredits = false
@@ -168,11 +165,6 @@ enableRobotsTXT = false
         name = "About"
         weight = 2.0
         url = "/about/"
-
-        [[languages.en.menu.main]]
-        name = "Resume"
-        weight = 2.5
-        url = "/resume/"
 
         [[languages.en.menu.main]]
         name = "Blog"
