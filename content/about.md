@@ -3,147 +3,99 @@ title = "About"
 slug = "about"
 +++
 
-I am **Rasik Jain**, a Software Engineer and Architect based in New Jersey. My current mission is building the next generation of **intelligent, AI-native applications**. I focus on the intersection of **Generative AI** and modern **Front-end engineering**, transforming complex machine learning capabilities into intuitive, high-performance user experiences.
+I am **Rasik Jain**, a software engineer based in New Jersey. I build **Generative AI** applications, with a focus on **Agentic AI** and **RAG**, and I work across the full stack to get them into production.
 
-Rather than building simple interfaces, I architect end-to-end systems that can reason. My daily work involves designing **Agentic RAG pipelines** and sophisticated **AI Agents** using **LangChain** and **LangGraph**. By bridging the gap between raw data and the user, I create applications that leverage **LLMs (OpenAI, Gemini, Groq)** to solve actual business problems rather than just providing simple chat.
+For the past couple of years I have been building **AI agents**, multi-agent systems, **agentic RAG** pipelines, and natural language search with LangChain, **LangGraph**, MCP, and vector databases like Pinecone and ChromaDB, using **LLMs** from OpenAI, Anthropic, and Google Gemini. I write most of my AI code in **Python** and build APIs with FastAPI. For the user interface I use **React**, Next.js, and **TypeScript**, and I deploy on **AWS** and Azure.
 
-### The AI & Data Science Stack
+At my current job I lead GenAI work on an enterprise analytics platform. I built an agentic RAG system that lets analysts ask questions about complex data in plain English instead of waiting on manual reports. This included the document chunking and embedding pipelines, the semantic retrieval, the multi-step **agentic workflows** with tool calling, and the UI analysts use daily.
 
-My approach to AI is grounded in the fundamentals of Data Science and Engineering. I spend a significant amount of my time in **Jupyter Notebooks** and Python, handling everything from **Data Ingestion** to **Feature Engineering** and **EDA** (Exploratory Data Analysis).
+Most of my effort goes into making GenAI features reliable in production. That means careful **context engineering**, structured outputs the rest of the system can trust, LLM evals and tracing with LangSmith, clean **APIs** between the model and the **UI**, and proper security.
 
-* **Generative AI:** I specialize in building with **LCEL (LangChain Expression Language)**, managing **Embeddings**, and optimizing retrieval using Vector Databases like **Pinecone**, **ChromaDB**, and **AstraDB**.
+### Experience
 
+I have been in the industry for **over 15 years**, working with companies like JPMorgan Chase, American Express, Deloitte, McKinsey, and Medidata, across fintech, healthcare, and SaaS. Most of those years were spent building systems in .NET and C#, and later in Node.js and React. That background shaped how I approach AI work today, with a focus on testing, monitoring, and simple code.
 
-* **Data & ML:** I rely on Pandas and NumPy for data manipulation and use Scikit-learn to build and validate traditional machine learning models.
+I currently lead a small engineering team, and I enjoy code reviews and helping engineers grow.
 
+I hold a master's degree from Florida International University and am an **AWS Certified Solutions Architect – Associate**.
 
-* **NLP Systems:** I focus on building reliable NLP systems, utilizing modern architectures to handle complex language processing tasks.
+### Outside of Work
 
+I follow technical blogs and Hacker News to keep up with new tools. I also enjoy travel and spending time with my family.
 
-* **Engineering Quality:** I use **Pydantic** and **Dataclasses** for rigorous data validation and **Matplotlib** to visualize model performance and data trends.
-
-### Front-end & Prototyping
-
-A great model is only as good as its accessibility. I leverage my expertise in **JavaScript** and **Node.js** to build reactive, fluid front-ends. For rapid AI prototyping and internal tooling, I utilize **Streamlit** to turn data scripts into shareable web apps. I believe the **"AI Engineer"** of the future must be a master of the **Full-stack**, ensuring that the intelligence on the backend feels seamless to the end-user.
-
-### Engineering Foundations & Experience
-
-While my current focus is GenAI, my perspective is shaped by **over 15 years of experience** in the IT industry, working with clients ranging from Fortune 500 enterprises to startups in the NYC area. I have held various positions, from individual contributor to team leader, across verticals like FinTech, Banking and Healthcare sectors.
-
-I spent years architecting scalable, mission-critical systems using **.NET and C#** for global institutions like **JPMorgan Chase** and **American Express**. This foundation of engineering rigor—incorporating **Agile/Scrum** methodologies, process automation, and **CI/CD**—is what I bring to the "new school" AI world. It ensures that the **Data Engineering** pipelines I build today are not just innovative prototypes, but are also secure, scalable, and maintainable for production use.
-
-I hold a **Master's degree** from **Florida International University [(FIU)](https://www.fiu.edu)**, which provided the academic foundation to complement my extensive practical experience in the field.
-
-### Beyond the Code
-
-To stay abreast of evolving technologies, I am an avid reader of technical blogs and enjoy engaging in discussions on platforms like **Hacker News** and **Indie Hackers**. Outside of work, I have a passion for travel, reading, and spending quality time with my family.
-
-## Specialties/Skillset
+## Skills
 
 ### Generative AI
-
 <div class="horizontalList">
     <ul>
-        <li>LLMs (OpenAI, Gemini, Groq)</li>
-        <li>Rag Pipelines</li>
-        <li>AI Agents (LangChain, LangGraph)</li>
-        <li>VectorDBs (Pinecone, ChromaDB, FAISS)</li>
-        <li>LCEL</li>
-    </ul>
-</div>
-
-### Data Science & ML
-<div class="horizontalList">
-    <ul>
-        <li>Pandas</li>
-        <li>NumPy</li>
-        <li>Scikit-learn</li>
-        <li>Hugging Face</li>
-        <li>Matplotlib</li>
-        <li>Streamlit</li>
+        <li>Agentic AI, AI Agents, Multi-Agent Systems</li>
+        <li>Agentic RAG</li>
+        <li>LangChain, LangGraph</li>
+        <li>LLMs (OpenAI, Anthropic, Gemini)</li>
+        <li>MCP, Tool Calling, Structured Outputs</li>
+        <li>Context Engineering, Prompt Engineering, Embeddings</li>
+        <li>Vector DBs (Pinecone, ChromaDB)</li>
+        <li>LLM Evals, LangSmith</li>
     </ul>
 </div>
 
 ### Languages
 <div class="horizontalList">
     <ul>
-        <li>JavaScript</li>
+        <li>Python (Pydantic)</li>
         <li>TypeScript</li>
-        <li>Python</li>
+        <li>JavaScript</li>
         <li>C#</li>
-        <li>SQL</li>
     </ul>
 </div>
 
-### Web and Frontend
+### Backend
 <div class="horizontalList">
     <ul>
-        <li>React.js</li>
-        <li>Next.js</li>
-        <li>State Management (Redux, Context)</li>
-        <li>Data Visualization (D3.js, Chart.js)</li>
-        <li>Tailwind CSS</li>
-        <li>HTML5</li>
-    </ul>
-</div>
-
-### Backend (APIs)
-<div class="horizontalList">
-    <ul>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>ASP.NET Core (WebAPI, LINQ, EF)</li>
         <li>FastAPI</li>
+        <li>Node.js, Express</li>
+        <li>ASP.NET Core</li>
+        <li>RESTful APIs</li>
+    </ul>
+</div>
+
+### Frontend
+<div class="horizontalList">
+    <ul>
+        <li>React</li>
+        <li>Next.js</li>
+        <li>Tailwind CSS</li>
+    </ul>
+</div>
+
+### Cloud & DevOps
+<div class="horizontalList">
+    <ul>
+        <li>AWS</li>
+        <li>Azure</li>
+        <li>Docker</li>
+        <li>GitHub Actions</li>
     </ul>
 </div>
 
 ### Databases
-
 <div class="horizontalList">
     <ul>
         <li>PostgreSQL</li>
         <li>MongoDB</li>
         <li>Redis</li>
-        <li>Microsoft SQL Server</li>
-        <li>Firebase</li>
-    </ul>
-
-</div>
-
-### Cloud & DevOps
-
-<div class="horizontalList">
-    <ul>
-        <li>AWS (Aurora, DynamoDB, IAM)</li>
-        <li>Azure</li>
-        <li>GCP</li>
-        <li>Serverless Functions</li>
+        <li>SQL Server</li>
     </ul>
 </div>
 
-### Packages & Tools
+## Get in Touch
 
-<div class="horizontalList">
-    <ul>
-        <li>Jira</li>
-        <li>Git</li>
-        <li>Docker</li>
-        <li>Jenkins</li>
-        <li>Splunk</li>
-        <li>SumoLogic</li>
-    </ul>
+If you need help with consulting or contract work, or are hiring for a full-time GenAI role, I would be glad to talk.
 
-</div>
+* **<i class="far fa-lg fa-envelope" style="color: #212121"></i> Email:** [jainrasik.pro (at) gmail dot com](mailto:jainrasik.pro@gmail.com?subject=Hello,%20Regarding%20profile)
 
-### Get in Touch
+* **<i class="fab fa-lg fa-linkedin" style="color: #212121"></i> LinkedIn:** [@rasikjain](https://www.linkedin.com/in/rasikjain/)
 
-If you are looking for someone to help with **consultations**, **contract assignments**, and **full-time** roles. I'd love to chat
+* **<i class="fab fa-lg fa-github" style="color: #212121"></i> GitHub:** [@rasikjain](https://github.com/rasikjain)
 
-* **<i class="far fa-lg fa-envelope" style="color: #212121"></i> Email:** [jainrasik AT gmail dot com](mailto:jainrasik@gmail.com?subject=Hello,%20Regarding%20profile) 
-
-* **<i class="fab fa-lg fa-linkedin" style="color: #212121"></i> LinkedIn:** [@rasikjain](https://www.linkedin.com/in/rasikjain/) 
-
-* **<i class="fab fa-lg fa-twitter" style="color: #212121"></i> Twitter/X:** [@jainrasik](https://twitter.com/jainrasik) 
-
-
-I look forward to connecting with you soon!
+* **<i class="fab fa-lg fa-twitter" style="color: #212121"></i> Twitter/X:** [@jainrasik](https://twitter.com/jainrasik)
